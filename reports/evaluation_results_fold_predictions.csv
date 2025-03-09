@@ -1,0 +1,1048 @@
+predictions,DateTime,SITE_NAME,Enterococci
+11.0,2021-11-26 10:00:00,Akaroa at main beach,5.0
+6.0,2021-12-02 12:00:00,Akaroa at main beach,5.0
+32.0,2021-12-09 10:00:00,Akaroa at main beach,52.0
+121.0,2021-12-15 11:00:00,Akaroa at main beach,1956.0
+9.0,2021-12-20 12:00:00,Akaroa at main beach,52.0
+8.0,2021-12-23 09:00:00,Akaroa at main beach,5.0
+16.0,2021-12-30 13:00:00,Akaroa at main beach,20.0
+14.0,2022-01-07 09:00:00,Akaroa at main beach,10.0
+16.0,2022-01-12 13:00:00,Akaroa at main beach,5.0
+128.0,2022-01-20 06:00:00,Akaroa at main beach,52.0
+15.0,2022-01-26 11:00:00,Akaroa at main beach,20.0
+26.0,2022-02-01 16:00:00,Akaroa at main beach,5.0
+51.0,2022-02-10 13:00:00,Akaroa at main beach,594.0
+7.0,2022-02-15 15:00:00,Akaroa at main beach,1274.0
+17.0,2022-02-18 11:00:00,Akaroa at main beach,5.0
+7.0,2022-02-24 11:00:00,Akaroa at main beach,5.0
+9.0,2022-03-10 12:00:00,Akaroa at main beach,5.0
+8.0,2021-11-26 11:00:00,Cass Bay at boat ramp,218.0
+45.0,2021-11-29 13:00:00,Cass Bay at boat ramp,108.0
+12.0,2021-12-02 14:00:00,Cass Bay at boat ramp,146.0
+119.0,2021-12-06 16:00:00,Cass Bay at boat ramp,275.0
+19.0,2021-12-09 10:00:00,Cass Bay at boat ramp,20.0
+270.0,2021-12-16 15:00:00,Cass Bay at boat ramp,2610.0
+11.0,2021-12-20 09:00:00,Cass Bay at boat ramp,10.0
+10.0,2021-12-23 08:00:00,Cass Bay at boat ramp,145.0
+12.0,2021-12-30 13:00:00,Cass Bay at boat ramp,10.0
+15.0,2022-01-07 08:00:00,Cass Bay at boat ramp,5.0
+14.0,2022-01-12 14:00:00,Cass Bay at boat ramp,10.0
+121.0,2022-01-20 06:00:00,Cass Bay at boat ramp,31.0
+11.0,2022-01-26 10:00:00,Cass Bay at boat ramp,10.0
+15.0,2022-02-01 18:00:00,Cass Bay at boat ramp,583.0
+24.0,2022-02-03 15:00:00,Cass Bay at boat ramp,10.0
+165.0,2022-02-10 14:00:00,Cass Bay at boat ramp,74.0
+8.0,2022-02-15 15:00:00,Cass Bay at boat ramp,72.0
+9.0,2022-02-23 11:00:00,Cass Bay at boat ramp,5.0
+9.0,2022-03-09 12:00:00,Cass Bay at boat ramp,5.0
+10.0,2021-11-26 10:00:00,Charteris Bay Paradise Beach,5.0
+9.0,2021-12-02 13:00:00,Charteris Bay Paradise Beach,5.0
+17.0,2021-12-09 08:00:00,Charteris Bay Paradise Beach,20.0
+223.0,2021-12-16 14:00:00,Charteris Bay Paradise Beach,959.0
+11.0,2021-12-20 10:00:00,Charteris Bay Paradise Beach,5.0
+9.0,2021-12-23 07:00:00,Charteris Bay Paradise Beach,10.0
+9.0,2021-12-30 12:00:00,Charteris Bay Paradise Beach,109.0
+12.0,2022-01-07 10:00:00,Charteris Bay Paradise Beach,5.0
+10.0,2022-01-12 12:00:00,Charteris Bay Paradise Beach,5.0
+54.0,2022-01-20 07:00:00,Charteris Bay Paradise Beach,10.0
+9.0,2022-01-26 11:00:00,Charteris Bay Paradise Beach,5.0
+15.0,2022-02-01 16:00:00,Charteris Bay Paradise Beach,10.0
+34.0,2022-02-10 12:00:00,Charteris Bay Paradise Beach,85.0
+14.0,2022-02-15 16:00:00,Charteris Bay Paradise Beach,5.0
+7.0,2022-02-23 10:00:00,Charteris Bay Paradise Beach,5.0
+8.0,2022-03-09 10:00:00,Charteris Bay Paradise Beach,5.0
+9.0,2021-11-26 08:00:00,Church Bay Beach,5.0
+15.0,2021-12-02 12:00:00,Church Bay Beach,5.0
+55.0,2021-12-09 07:00:00,Church Bay Beach,84.0
+171.0,2021-12-16 13:00:00,Church Bay Beach,1211.0
+13.0,2021-12-20 12:00:00,Church Bay Beach,5.0
+10.0,2021-12-23 06:00:00,Church Bay Beach,74.0
+12.0,2021-12-30 11:00:00,Church Bay Beach,5.0
+10.0,2022-01-07 10:00:00,Church Bay Beach,5.0
+11.0,2022-01-12 11:00:00,Church Bay Beach,31.0
+278.0,2022-01-20 08:00:00,Church Bay Beach,10.0
+23.0,2022-01-26 12:00:00,Church Bay Beach,10.0
+50.0,2022-02-01 16:00:00,Church Bay Beach,31.0
+119.0,2022-02-10 11:00:00,Church Bay Beach,318.0
+31.0,2022-02-15 17:00:00,Church Bay Beach,98.0
+11.0,2022-02-23 09:00:00,Church Bay Beach,63.0
+10.0,2022-03-09 09:00:00,Church Bay Beach,121.0
+15.0,2021-11-26 11:00:00,Corsair Bay Beach,10.0
+19.0,2021-12-02 15:00:00,Corsair Bay Beach,52.0
+39.0,2021-12-09 10:00:00,Corsair Bay Beach,20.0
+1173.0,2021-12-16 15:00:00,Corsair Bay Beach,1670.0
+13.0,2021-12-20 08:00:00,Corsair Bay Beach,10.0
+12.0,2021-12-23 08:00:00,Corsair Bay Beach,10.0
+19.0,2021-12-30 14:00:00,Corsair Bay Beach,31.0
+20.0,2022-01-07 08:00:00,Corsair Bay Beach,85.0
+15.0,2022-01-12 14:00:00,Corsair Bay Beach,41.0
+667.0,2022-01-20 05:00:00,Corsair Bay Beach,5.0
+19.0,2022-01-26 10:00:00,Corsair Bay Beach,74.0
+34.0,2022-02-01 18:00:00,Corsair Bay Beach,5.0
+336.0,2022-02-10 14:00:00,Corsair Bay Beach,41.0
+12.0,2022-02-15 15:00:00,Corsair Bay Beach,5.0
+16.0,2022-02-23 12:00:00,Corsair Bay Beach,31.0
+16.0,2022-03-09 12:00:00,Corsair Bay Beach,5.0
+9.0,2021-11-26 09:00:00,Diamond Harbour Beach,5.0
+14.0,2021-12-02 13:00:00,Diamond Harbour Beach,10.0
+24.0,2021-12-09 08:00:00,Diamond Harbour Beach,5.0
+1301.0,2021-12-16 13:00:00,Diamond Harbour Beach,5170.0
+27.0,2021-12-20 11:00:00,Diamond Harbour Beach,97.0
+19.0,2021-12-23 07:00:00,Diamond Harbour Beach,110.0
+22.0,2021-12-30 12:00:00,Diamond Harbour Beach,5.0
+22.0,2022-01-07 11:00:00,Diamond Harbour Beach,5.0
+13.0,2022-01-12 12:00:00,Diamond Harbour Beach,5.0
+646.0,2022-01-20 08:00:00,Diamond Harbour Beach,5.0
+23.0,2022-01-26 12:00:00,Diamond Harbour Beach,5.0
+16.0,2022-02-01 15:00:00,Diamond Harbour Beach,10.0
+334.0,2022-02-10 11:00:00,Diamond Harbour Beach,990.0
+18.0,2022-02-15 17:00:00,Diamond Harbour Beach,52.0
+22.0,2022-02-23 09:00:00,Diamond Harbour Beach,40.0
+14.0,2022-03-09 09:00:00,Diamond Harbour Beach,10.0
+7.0,2021-11-26 09:00:00,Duvauchelle Bay by camping ground,10.0
+8.0,2021-12-02 14:00:00,Duvauchelle Bay by camping ground,5.0
+15.0,2021-12-09 08:00:00,Duvauchelle Bay by camping ground,10.0
+177.0,2021-12-15 13:00:00,Duvauchelle Bay by camping ground,158.0
+8.0,2021-12-20 12:00:00,Duvauchelle Bay by camping ground,10.0
+7.0,2021-12-23 07:00:00,Duvauchelle Bay by camping ground,31.0
+13.0,2021-12-30 12:00:00,Duvauchelle Bay by camping ground,85.0
+11.0,2022-01-07 07:00:00,Duvauchelle Bay by camping ground,5.0
+12.0,2022-01-12 11:00:00,Duvauchelle Bay by camping ground,5.0
+222.0,2022-01-20 05:00:00,Duvauchelle Bay by camping ground,201.0
+8.0,2022-01-24 11:00:00,Duvauchelle Bay by camping ground,5.0
+10.0,2022-01-26 10:00:00,Duvauchelle Bay by camping ground,10.0
+13.0,2022-02-01 15:00:00,Duvauchelle Bay by camping ground,5.0
+70.0,2022-02-10 11:00:00,Duvauchelle Bay by camping ground,839.0
+8.0,2022-02-15 15:00:00,Duvauchelle Bay by camping ground,5.0
+5.0,2022-02-24 10:00:00,Duvauchelle Bay by camping ground,5.0
+7.0,2022-03-10 11:00:00,Duvauchelle Bay by camping ground,5.0
+8.0,2021-11-26 08:00:00,French Farm Bay,5.0
+7.0,2021-12-02 14:00:00,French Farm Bay,5.0
+12.0,2021-12-09 08:00:00,French Farm Bay,5.0
+96.0,2021-12-15 13:00:00,French Farm Bay,41.0
+8.0,2021-12-23 07:00:00,French Farm Bay,5.0
+11.0,2021-12-30 12:00:00,French Farm Bay,5.0
+12.0,2022-01-07 07:00:00,French Farm Bay,5.0
+9.0,2022-01-12 11:00:00,French Farm Bay,5.0
+75.0,2022-01-20 05:00:00,French Farm Bay,173.0
+8.0,2022-01-24 11:00:00,French Farm Bay,5.0
+10.0,2022-01-26 09:00:00,French Farm Bay,5.0
+10.0,2022-02-01 15:00:00,French Farm Bay,5.0
+36.0,2022-02-10 11:00:00,French Farm Bay,31.0
+7.0,2022-02-24 09:00:00,French Farm Bay,5.0
+7.0,2022-03-10 10:00:00,French Farm Bay,5.0
+6.0,2022-04-04 13:00:00,French Farm Bay,41.0
+9.0,2021-11-26 10:00:00,Glen Bay boat ramp,10.0
+6.0,2021-12-02 12:00:00,Glen Bay boat ramp,5.0
+16.0,2021-12-09 10:00:00,Glen Bay boat ramp,5.0
+184.0,2021-12-15 11:00:00,Glen Bay boat ramp,262.0
+8.0,2021-12-20 13:00:00,Glen Bay boat ramp,10.0
+8.0,2021-12-23 09:00:00,Glen Bay boat ramp,10.0
+18.0,2021-12-30 14:00:00,Glen Bay boat ramp,62.0
+17.0,2022-01-07 09:00:00,Glen Bay boat ramp,5.0
+13.0,2022-01-12 13:00:00,Glen Bay boat ramp,20.0
+98.0,2022-01-20 06:00:00,Glen Bay boat ramp,97.0
+9.0,2022-01-26 11:00:00,Glen Bay boat ramp,5.0
+26.0,2022-02-01 17:00:00,Glen Bay boat ramp,84.0
+66.0,2022-02-10 13:00:00,Glen Bay boat ramp,52.0
+11.0,2022-02-15 14:00:00,Glen Bay boat ramp,20.0
+9.0,2022-02-24 12:00:00,Glen Bay boat ramp,5.0
+12.0,2022-03-10 12:00:00,Glen Bay boat ramp,5.0
+19.0,2021-11-26 10:00:00,Governors Bay Sandy Beach,5.0
+22.0,2021-12-02 14:00:00,Governors Bay Sandy Beach,2190.0
+32.0,2021-12-09 09:00:00,Governors Bay Sandy Beach,3450.0
+1221.0,2021-12-16 14:00:00,Governors Bay Sandy Beach,2480.0
+24.0,2021-12-23 07:00:00,Governors Bay Sandy Beach,450.0
+78.0,2021-12-30 13:00:00,Governors Bay Sandy Beach,41.0
+25.0,2022-01-07 09:00:00,Governors Bay Sandy Beach,393.0
+21.0,2022-01-12 13:00:00,Governors Bay Sandy Beach,305.0
+13.0,2022-01-14 13:00:00,Governors Bay Sandy Beach,5.0
+148.0,2022-01-20 07:00:00,Governors Bay Sandy Beach,5.0
+31.0,2022-01-26 11:00:00,Governors Bay Sandy Beach,5.0
+118.0,2022-02-01 17:00:00,Governors Bay Sandy Beach,20.0
+298.0,2022-02-10 13:00:00,Governors Bay Sandy Beach,249.0
+95.0,2022-02-15 16:00:00,Governors Bay Sandy Beach,20.0
+17.0,2022-02-23 11:00:00,Governors Bay Sandy Beach,5.0
+18.0,2022-03-09 10:00:00,Governors Bay Sandy Beach,10.0
+11.0,2021-11-26 09:00:00,Purau Bay Beach,556.0
+91.0,2021-11-29 14:00:00,Purau Bay Beach,5.0
+12.0,2021-12-02 12:00:00,Purau Bay Beach,52.0
+22.0,2021-12-09 08:00:00,Purau Bay Beach,5.0
+439.0,2021-12-16 13:00:00,Purau Bay Beach,683.0
+17.0,2021-12-20 10:00:00,Purau Bay Beach,31.0
+15.0,2021-12-23 06:00:00,Purau Bay Beach,63.0
+9.0,2021-12-30 12:00:00,Purau Bay Beach,20.0
+12.0,2022-01-07 11:00:00,Purau Bay Beach,5.0
+11.0,2022-01-12 12:00:00,Purau Bay Beach,882.0
+15.0,2022-01-14 13:00:00,Purau Bay Beach,5.0
+290.0,2022-01-20 08:00:00,Purau Bay Beach,52.0
+23.0,2022-01-26 12:00:00,Purau Bay Beach,41.0
+20.0,2022-02-01 15:00:00,Purau Bay Beach,10.0
+314.0,2022-02-10 11:00:00,Purau Bay Beach,884.0
+16.0,2022-02-15 17:00:00,Purau Bay Beach,322.0
+12.0,2022-02-18 10:00:00,Purau Bay Beach,20.0
+12.0,2022-02-23 09:00:00,Purau Bay Beach,20.0
+12.0,2022-03-09 08:00:00,Purau Bay Beach,5.0
+14.0,2021-11-26 10:00:00,Rapaki Bay Beach,5.0
+27.0,2021-12-02 14:00:00,Rapaki Bay Beach,5.0
+18.0,2021-12-09 09:00:00,Rapaki Bay Beach,1050.0
+22.0,2021-12-13 09:00:00,Rapaki Bay Beach,5.0
+2802.0,2021-12-16 14:00:00,Rapaki Bay Beach,3450.0
+28.0,2021-12-20 09:00:00,Rapaki Bay Beach,5.0
+35.0,2021-12-23 08:00:00,Rapaki Bay Beach,52.0
+76.0,2021-12-30 13:00:00,Rapaki Bay Beach,20.0
+58.0,2022-01-07 09:00:00,Rapaki Bay Beach,211.0
+37.0,2022-01-10 08:00:00,Rapaki Bay Beach,5.0
+15.0,2022-01-12 13:00:00,Rapaki Bay Beach,20.0
+467.0,2022-01-20 06:00:00,Rapaki Bay Beach,292.0
+59.0,2022-01-24 08:00:00,Rapaki Bay Beach,5.0
+35.0,2022-01-26 10:00:00,Rapaki Bay Beach,5.0
+47.0,2022-02-01 17:00:00,Rapaki Bay Beach,5.0
+519.0,2022-02-10 13:00:00,Rapaki Bay Beach,74.0
+21.0,2022-02-15 15:00:00,Rapaki Bay Beach,5.0
+17.0,2022-02-23 11:00:00,Rapaki Bay Beach,5.0
+17.0,2022-03-09 11:00:00,Rapaki Bay Beach,20.0
+21.0,2021-11-26 10:00:00,Takamatua Bay Boat ramp,10.0
+13.0,2021-12-02 12:00:00,Takamatua Bay Boat ramp,5.0
+45.0,2021-12-09 10:00:00,Takamatua Bay Boat ramp,158.0
+16.0,2021-12-13 10:00:00,Takamatua Bay Boat ramp,31.0
+154.0,2021-12-15 11:00:00,Takamatua Bay Boat ramp,20.0
+16.0,2021-12-23 08:00:00,Takamatua Bay Boat ramp,73.0
+35.0,2021-12-30 13:00:00,Takamatua Bay Boat ramp,10.0
+16.0,2022-01-07 08:00:00,Takamatua Bay Boat ramp,5.0
+33.0,2022-01-12 12:00:00,Takamatua Bay Boat ramp,145.0
+33.0,2022-01-14 12:00:00,Takamatua Bay Boat ramp,10.0
+77.0,2022-01-20 06:00:00,Takamatua Bay Boat ramp,160.0
+36.0,2022-01-24 12:00:00,Takamatua Bay Boat ramp,10.0
+17.0,2022-01-26 11:00:00,Takamatua Bay Boat ramp,10.0
+103.0,2022-02-01 16:00:00,Takamatua Bay Boat ramp,5.0
+67.0,2022-02-10 12:00:00,Takamatua Bay Boat ramp,171.0
+12.0,2022-02-15 15:00:00,Takamatua Bay Boat ramp,10.0
+14.0,2022-02-24 11:00:00,Takamatua Bay Boat ramp,10.0
+18.0,2022-03-10 11:00:00,Takamatua Bay Boat ramp,10.0
+14.0,2021-11-26 08:00:00,Tikao Bay mid beach,10.0
+13.0,2021-12-02 14:00:00,Tikao Bay mid beach,5.0
+24.0,2021-12-09 08:00:00,Tikao Bay mid beach,74.0
+437.0,2021-12-15 14:00:00,Tikao Bay mid beach,766.0
+19.0,2021-12-20 11:00:00,Tikao Bay mid beach,5.0
+23.0,2021-12-23 06:00:00,Tikao Bay mid beach,20.0
+34.0,2021-12-30 11:00:00,Tikao Bay mid beach,63.0
+31.0,2022-01-07 07:00:00,Tikao Bay mid beach,158.0
+26.0,2022-01-10 11:00:00,Tikao Bay mid beach,30.0
+23.0,2022-01-12 11:00:00,Tikao Bay mid beach,41.0
+255.0,2022-01-20 05:00:00,Tikao Bay mid beach,278.0
+19.0,2022-01-24 10:00:00,Tikao Bay mid beach,10.0
+25.0,2022-01-26 09:00:00,Tikao Bay mid beach,110.0
+23.0,2022-02-01 14:00:00,Tikao Bay mid beach,5.0
+181.0,2022-02-10 10:00:00,Tikao Bay mid beach,479.0
+25.0,2022-02-15 16:00:00,Tikao Bay mid beach,5.0
+16.0,2022-02-24 09:00:00,Tikao Bay mid beach,5.0
+14.0,2022-03-10 10:00:00,Tikao Bay mid beach,5.0
+9.0,2021-11-26 08:00:00,Wainui Beach Wainui Beach,5.0
+9.0,2021-12-02 15:00:00,Wainui Beach Wainui Beach,5.0
+14.0,2021-12-09 07:00:00,Wainui Beach Wainui Beach,5.0
+181.0,2021-12-15 14:00:00,Wainui Beach Wainui Beach,20.0
+9.0,2021-12-23 06:00:00,Wainui Beach Wainui Beach,41.0
+10.0,2021-12-30 11:00:00,Wainui Beach Wainui Beach,5.0
+13.0,2022-01-07 06:00:00,Wainui Beach Wainui Beach,250.0
+12.0,2022-01-10 12:00:00,Wainui Beach Wainui Beach,30.0
+13.0,2022-01-12 10:00:00,Wainui Beach Wainui Beach,20.0
+154.0,2022-01-20 05:00:00,Wainui Beach Wainui Beach,183.0
+16.0,2022-01-24 10:00:00,Wainui Beach Wainui Beach,10.0
+12.0,2022-01-26 09:00:00,Wainui Beach Wainui Beach,10.0
+16.0,2022-02-01 14:00:00,Wainui Beach Wainui Beach,5.0
+85.0,2022-02-10 10:00:00,Wainui Beach Wainui Beach,395.0
+17.0,2022-02-15 16:00:00,Wainui Beach Wainui Beach,10.0
+12.0,2022-02-24 10:00:00,Wainui Beach Wainui Beach,5.0
+15.0,2022-03-10 10:00:00,Wainui Beach Wainui Beach,5.0
+10.0,2022-11-17 13:00:00,Akaroa at main beach,10.0
+109.0,2022-12-02 11:00:00,Akaroa at main beach,5.0
+12.0,2022-12-07 14:00:00,Akaroa at main beach,5.0
+22.0,2022-12-15 10:00:00,Akaroa at main beach,5.0
+8.0,2022-12-20 14:00:00,Akaroa at main beach,5.0
+19.0,2022-12-28 07:00:00,Akaroa at main beach,97.0
+20.0,2023-01-10 06:00:00,Akaroa at main beach,5.0
+16.0,2023-01-18 12:00:00,Akaroa at main beach,5.0
+16.0,2023-01-27 07:00:00,Akaroa at main beach,5.0
+21.0,2023-02-01 15:00:00,Akaroa at main beach,5.0
+716.0,2023-02-15 12:00:00,Akaroa at main beach,5480.0
+127.0,2023-02-17 13:00:00,Akaroa at main beach,20.0
+30.0,2023-02-20 15:00:00,Akaroa at main beach,5.0
+52.0,2023-03-01 12:00:00,Akaroa at main beach,5.0
+67.0,2023-03-06 13:00:00,Akaroa at main beach,10.0
+39.0,2023-03-15 11:00:00,Akaroa at main beach,5.0
+7.0,2023-03-20 13:00:00,Akaroa at main beach,5.0
+13.0,2023-06-01 14:00:00,Akaroa at main beach,5.0
+48.0,2023-06-20 15:00:00,Akaroa at main beach,5.0
+11.0,2023-07-06 13:00:00,Akaroa at main beach,121.0
+278.0,2023-07-10 11:00:00,Akaroa at main beach,389.0
+103.0,2023-07-11 13:00:00,Akaroa at main beach,402.0
+17.0,2023-07-12 12:00:00,Akaroa at main beach,158.0
+46.0,2022-11-21 15:00:00,Cass Bay at boat ramp,231.0
+25.0,2022-11-23 09:00:00,Cass Bay at boat ramp,5.0
+27.0,2022-12-01 09:00:00,Cass Bay at boat ramp,10.0
+25.0,2022-12-07 15:00:00,Cass Bay at boat ramp,10.0
+15.0,2022-12-14 08:00:00,Cass Bay at boat ramp,5.0
+20.0,2022-12-20 15:00:00,Cass Bay at boat ramp,30.0
+23.0,2022-12-29 10:00:00,Cass Bay at boat ramp,2720.0
+14.0,2023-01-04 15:00:00,Cass Bay at boat ramp,107.0
+10.0,2023-01-06 14:00:00,Cass Bay at boat ramp,148.0
+21.0,2023-01-09 10:00:00,Cass Bay at boat ramp,5.0
+23.0,2023-01-10 07:00:00,Cass Bay at boat ramp,404.0
+27.0,2023-01-12 08:00:00,Cass Bay at boat ramp,5.0
+21.0,2023-01-18 14:00:00,Cass Bay at boat ramp,5.0
+22.0,2023-01-20 14:00:00,Cass Bay at boat ramp,10.0
+21.0,2023-01-26 17:00:00,Cass Bay at boat ramp,5.0
+20.0,2023-01-27 08:00:00,Cass Bay at boat ramp,5.0
+41.0,2023-02-01 14:00:00,Cass Bay at boat ramp,10.0
+21.0,2023-02-03 14:00:00,Cass Bay at boat ramp,5.0
+21.0,2023-02-04 14:00:00,Cass Bay at boat ramp,31.0
+38.0,2023-02-05 16:00:00,Cass Bay at boat ramp,5.0
+9.0,2023-02-06 16:00:00,Cass Bay at boat ramp,20.0
+23.0,2023-02-10 08:00:00,Cass Bay at boat ramp,5.0
+563.0,2023-02-15 14:00:00,Cass Bay at boat ramp,74.0
+107.0,2023-02-16 15:00:00,Cass Bay at boat ramp,5.0
+36.0,2023-02-17 12:00:00,Cass Bay at boat ramp,10.0
+29.0,2023-02-18 14:00:00,Cass Bay at boat ramp,5.0
+29.0,2023-02-23 07:00:00,Cass Bay at boat ramp,185.0
+11.0,2023-02-25 09:00:00,Cass Bay at boat ramp,5.0
+16.0,2023-03-01 14:00:00,Cass Bay at boat ramp,5.0
+18.0,2023-03-06 16:00:00,Cass Bay at boat ramp,5.0
+14.0,2022-11-21 14:00:00,Charteris Bay Paradise Beach,5.0
+14.0,2022-12-01 11:00:00,Charteris Bay Paradise Beach,41.0
+24.0,2022-12-07 16:00:00,Charteris Bay Paradise Beach,5.0
+11.0,2022-12-14 10:00:00,Charteris Bay Paradise Beach,5.0
+9.0,2022-12-20 13:00:00,Charteris Bay Paradise Beach,5.0
+10.0,2022-12-29 09:00:00,Charteris Bay Paradise Beach,5.0
+14.0,2023-01-10 08:00:00,Charteris Bay Paradise Beach,5.0
+10.0,2023-01-18 13:00:00,Charteris Bay Paradise Beach,5.0
+8.0,2023-01-27 10:00:00,Charteris Bay Paradise Beach,20.0
+22.0,2023-02-01 13:00:00,Charteris Bay Paradise Beach,5.0
+28.0,2023-02-10 10:00:00,Charteris Bay Paradise Beach,10.0
+236.0,2023-02-15 12:00:00,Charteris Bay Paradise Beach,1918.0
+29.0,2023-02-17 14:00:00,Charteris Bay Paradise Beach,10.0
+13.0,2023-02-18 15:00:00,Charteris Bay Paradise Beach,5.0
+35.0,2023-02-23 09:00:00,Charteris Bay Paradise Beach,74.0
+14.0,2023-03-01 12:00:00,Charteris Bay Paradise Beach,5.0
+15.0,2023-03-06 14:00:00,Charteris Bay Paradise Beach,1539.0
+9.0,2023-03-09 13:00:00,Charteris Bay Paradise Beach,5.0
+27.0,2022-11-21 13:00:00,Church Bay Beach,5.0
+46.0,2022-12-01 12:00:00,Church Bay Beach,20.0
+112.0,2022-12-07 16:00:00,Church Bay Beach,63.0
+16.0,2022-12-14 11:00:00,Church Bay Beach,5.0
+13.0,2022-12-20 13:00:00,Church Bay Beach,31.0
+16.0,2022-12-29 08:00:00,Church Bay Beach,86.0
+15.0,2023-01-10 09:00:00,Church Bay Beach,5.0
+25.0,2023-01-18 12:00:00,Church Bay Beach,10.0
+15.0,2023-01-27 10:00:00,Church Bay Beach,63.0
+53.0,2023-02-01 12:00:00,Church Bay Beach,20.0
+45.0,2023-02-10 10:00:00,Church Bay Beach,5.0
+352.0,2023-02-15 11:00:00,Church Bay Beach,2380.0
+62.0,2023-02-17 14:00:00,Church Bay Beach,275.0
+34.0,2023-02-18 16:00:00,Church Bay Beach,5.0
+65.0,2023-02-23 10:00:00,Church Bay Beach,369.0
+11.0,2023-02-25 09:00:00,Church Bay Beach,74.0
+11.0,2023-03-01 11:00:00,Church Bay Beach,5.0
+27.0,2023-03-06 14:00:00,Church Bay Beach,5.0
+48.0,2022-11-21 16:00:00,Corsair Bay Beach,10.0
+28.0,2022-12-01 09:00:00,Corsair Bay Beach,393.0
+21.0,2022-12-07 15:00:00,Corsair Bay Beach,5.0
+15.0,2022-12-14 08:00:00,Corsair Bay Beach,10.0
+18.0,2022-12-20 15:00:00,Corsair Bay Beach,10.0
+20.0,2022-12-29 10:00:00,Corsair Bay Beach,1467.0
+17.0,2023-01-05 13:00:00,Corsair Bay Beach,5.0
+18.0,2023-01-06 14:00:00,Corsair Bay Beach,20.0
+24.0,2023-01-10 06:00:00,Corsair Bay Beach,5.0
+23.0,2023-01-18 14:00:00,Corsair Bay Beach,5.0
+17.0,2023-01-20 14:00:00,Corsair Bay Beach,63.0
+28.0,2023-01-26 17:00:00,Corsair Bay Beach,41.0
+22.0,2023-01-27 08:00:00,Corsair Bay Beach,5.0
+45.0,2023-02-01 15:00:00,Corsair Bay Beach,5.0
+27.0,2023-02-03 14:00:00,Corsair Bay Beach,5.0
+23.0,2023-02-04 14:00:00,Corsair Bay Beach,5.0
+53.0,2023-02-05 16:00:00,Corsair Bay Beach,20.0
+8.0,2023-02-06 15:00:00,Corsair Bay Beach,41.0
+39.0,2023-02-10 07:00:00,Corsair Bay Beach,5.0
+2227.0,2023-02-15 15:00:00,Corsair Bay Beach,1918.0
+186.0,2023-02-16 16:00:00,Corsair Bay Beach,84.0
+76.0,2023-02-17 12:00:00,Corsair Bay Beach,10.0
+22.0,2023-02-18 13:00:00,Corsair Bay Beach,135.0
+115.0,2023-02-23 06:00:00,Corsair Bay Beach,4880.0
+21.0,2023-02-25 08:00:00,Corsair Bay Beach,10.0
+17.0,2023-03-01 14:00:00,Corsair Bay Beach,5.0
+26.0,2023-03-06 17:00:00,Corsair Bay Beach,161.0
+15.0,2023-03-27 12:00:00,Corsair Bay Beach,5.0
+11.0,2023-06-01 15:00:00,Corsair Bay Beach,5.0
+48.0,2023-06-19 16:00:00,Corsair Bay Beach,20.0
+22.0,2023-07-06 13:00:00,Corsair Bay Beach,74.0
+262.0,2023-07-10 09:00:00,Corsair Bay Beach,331.0
+21.0,2023-07-12 11:00:00,Corsair Bay Beach,201.0
+23.0,2023-08-08 10:00:00,Corsair Bay Beach,5.0
+36.0,2022-11-21 13:00:00,Diamond Harbour Beach,72.0
+31.0,2022-12-01 12:00:00,Diamond Harbour Beach,5.0
+53.0,2022-12-07 17:00:00,Diamond Harbour Beach,5.0
+23.0,2022-12-14 11:00:00,Diamond Harbour Beach,5.0
+19.0,2022-12-20 12:00:00,Diamond Harbour Beach,5.0
+18.0,2022-12-29 08:00:00,Diamond Harbour Beach,5.0
+16.0,2023-01-10 09:00:00,Diamond Harbour Beach,5.0
+12.0,2023-01-18 12:00:00,Diamond Harbour Beach,387.0
+16.0,2023-01-27 11:00:00,Diamond Harbour Beach,5.0
+33.0,2023-02-01 13:00:00,Diamond Harbour Beach,10.0
+113.0,2023-02-10 11:00:00,Diamond Harbour Beach,5.0
+2498.0,2023-02-15 12:00:00,Diamond Harbour Beach,5170.0
+201.0,2023-02-16 12:00:00,Diamond Harbour Beach,1250.0
+176.0,2023-02-17 15:00:00,Diamond Harbour Beach,216.0
+84.0,2023-02-18 16:00:00,Diamond Harbour Beach,74.0
+279.0,2023-02-23 10:00:00,Diamond Harbour Beach,134.0
+39.0,2023-03-01 11:00:00,Diamond Harbour Beach,5.0
+34.0,2023-03-06 14:00:00,Diamond Harbour Beach,5.0
+14.0,2023-06-01 13:00:00,Diamond Harbour Beach,5.0
+44.0,2023-06-19 15:00:00,Diamond Harbour Beach,20.0
+15.0,2023-07-06 10:00:00,Diamond Harbour Beach,20.0
+220.0,2023-07-10 11:00:00,Diamond Harbour Beach,231.0
+28.0,2023-07-12 13:00:00,Diamond Harbour Beach,74.0
+22.0,2023-08-08 11:00:00,Diamond Harbour Beach,20.0
+9.0,2022-11-17 11:00:00,Duvauchelle Bay by camping ground,5.0
+11.0,2022-12-01 10:00:00,Duvauchelle Bay by camping ground,5.0
+8.0,2022-12-07 14:00:00,Duvauchelle Bay by camping ground,5.0
+9.0,2022-12-15 08:00:00,Duvauchelle Bay by camping ground,5.0
+8.0,2022-12-20 12:00:00,Duvauchelle Bay by camping ground,20.0
+15.0,2022-12-28 07:00:00,Duvauchelle Bay by camping ground,5.0
+9.0,2023-01-10 06:00:00,Duvauchelle Bay by camping ground,10.0
+9.0,2023-01-18 12:00:00,Duvauchelle Bay by camping ground,20.0
+13.0,2023-01-27 09:00:00,Duvauchelle Bay by camping ground,5.0
+14.0,2023-02-01 13:00:00,Duvauchelle Bay by camping ground,5.0
+654.0,2023-02-15 11:00:00,Duvauchelle Bay by camping ground,2910.0
+40.0,2023-02-17 13:00:00,Duvauchelle Bay by camping ground,5.0
+8.0,2023-02-20 15:00:00,Duvauchelle Bay by camping ground,41.0
+13.0,2023-03-01 11:00:00,Duvauchelle Bay by camping ground,5.0
+16.0,2023-03-06 15:00:00,Duvauchelle Bay by camping ground,5.0
+17.0,2023-03-15 10:00:00,Duvauchelle Bay by camping ground,5.0
+10.0,2023-03-20 13:00:00,Duvauchelle Bay by camping ground,5.0
+10.0,2023-06-01 13:00:00,Duvauchelle Bay by camping ground,5.0
+29.0,2023-06-20 15:00:00,Duvauchelle Bay by camping ground,5.0
+10.0,2023-07-06 13:00:00,Duvauchelle Bay by camping ground,5.0
+153.0,2023-07-10 11:00:00,Duvauchelle Bay by camping ground,1439.0
+96.0,2023-07-11 12:00:00,Duvauchelle Bay by camping ground,359.0
+15.0,2023-07-12 12:00:00,Duvauchelle Bay by camping ground,173.0
+9.0,2022-11-17 10:00:00,French Farm Bay,10.0
+11.0,2022-12-01 10:00:00,French Farm Bay,5.0
+11.0,2022-12-07 16:00:00,French Farm Bay,5.0
+8.0,2022-12-15 08:00:00,French Farm Bay,5.0
+9.0,2022-12-20 12:00:00,French Farm Bay,5.0
+12.0,2022-12-28 06:00:00,French Farm Bay,5.0
+9.0,2023-01-10 05:00:00,French Farm Bay,5.0
+8.0,2023-01-18 11:00:00,French Farm Bay,5.0
+10.0,2023-01-27 09:00:00,French Farm Bay,5.0
+9.0,2023-02-01 13:00:00,French Farm Bay,5.0
+320.0,2023-02-15 10:00:00,French Farm Bay,299.0
+31.0,2023-02-17 13:00:00,French Farm Bay,5.0
+7.0,2023-02-20 14:00:00,French Farm Bay,5.0
+11.0,2023-03-01 11:00:00,French Farm Bay,5.0
+14.0,2023-03-06 15:00:00,French Farm Bay,31.0
+11.0,2023-03-15 09:00:00,French Farm Bay,5.0
+11.0,2023-03-20 14:00:00,French Farm Bay,63.0
+7.0,2022-11-17 13:00:00,Glen Bay boat ramp,5.0
+15.0,2022-12-01 12:00:00,Glen Bay boat ramp,5.0
+9.0,2022-12-07 13:00:00,Glen Bay boat ramp,5.0
+19.0,2022-12-15 10:00:00,Glen Bay boat ramp,5.0
+10.0,2022-12-20 14:00:00,Glen Bay boat ramp,5.0
+16.0,2022-12-28 07:00:00,Glen Bay boat ramp,5.0
+20.0,2023-01-10 06:00:00,Glen Bay boat ramp,10.0
+13.0,2023-01-18 13:00:00,Glen Bay boat ramp,5.0
+11.0,2023-01-27 07:00:00,Glen Bay boat ramp,5.0
+18.0,2023-02-01 15:00:00,Glen Bay boat ramp,5.0
+435.0,2023-02-15 12:00:00,Glen Bay boat ramp,2360.0
+46.0,2023-02-17 14:00:00,Glen Bay boat ramp,5.0
+6.0,2023-02-20 17:00:00,Glen Bay boat ramp,5.0
+19.0,2023-03-01 12:00:00,Glen Bay boat ramp,5.0
+32.0,2023-03-06 13:00:00,Glen Bay boat ramp,20.0
+14.0,2023-03-15 11:00:00,Glen Bay boat ramp,10.0
+7.0,2023-03-20 13:00:00,Glen Bay boat ramp,10.0
+12.0,2023-06-01 14:00:00,Glen Bay boat ramp,10.0
+43.0,2023-06-20 16:00:00,Glen Bay boat ramp,5.0
+12.0,2023-07-06 14:00:00,Glen Bay boat ramp,5.0
+157.0,2023-07-10 11:00:00,Glen Bay boat ramp,565.0
+70.0,2023-07-11 13:00:00,Glen Bay boat ramp,388.0
+13.0,2023-07-12 13:00:00,Glen Bay boat ramp,62.0
+86.0,2022-11-21 14:00:00,Governors Bay Sandy Beach,1396.0
+290.0,2022-12-01 10:00:00,Governors Bay Sandy Beach,5.0
+178.0,2022-12-07 16:00:00,Governors Bay Sandy Beach,30.0
+24.0,2022-12-14 10:00:00,Governors Bay Sandy Beach,5.0
+27.0,2022-12-20 14:00:00,Governors Bay Sandy Beach,171.0
+142.0,2022-12-29 09:00:00,Governors Bay Sandy Beach,31.0
+44.0,2023-01-10 08:00:00,Governors Bay Sandy Beach,10.0
+38.0,2023-01-18 13:00:00,Governors Bay Sandy Beach,5.0
+19.0,2023-01-27 09:00:00,Governors Bay Sandy Beach,109.0
+88.0,2023-02-01 14:00:00,Governors Bay Sandy Beach,20.0
+37.0,2023-02-10 09:00:00,Governors Bay Sandy Beach,20.0
+788.0,2023-02-15 13:00:00,Governors Bay Sandy Beach,1789.0
+120.0,2023-02-16 13:00:00,Governors Bay Sandy Beach,20.0
+110.0,2023-02-17 13:00:00,Governors Bay Sandy Beach,52.0
+60.0,2023-02-18 15:00:00,Governors Bay Sandy Beach,10.0
+81.0,2023-02-23 08:00:00,Governors Bay Sandy Beach,109.0
+43.0,2023-03-01 12:00:00,Governors Bay Sandy Beach,85.0
+26.0,2023-03-06 15:00:00,Governors Bay Sandy Beach,134.0
+32.0,2022-11-21 13:00:00,Purau Bay Beach,107.0
+33.0,2022-12-01 13:00:00,Purau Bay Beach,20.0
+94.0,2022-12-07 17:00:00,Purau Bay Beach,10.0
+27.0,2022-12-14 12:00:00,Purau Bay Beach,10.0
+19.0,2022-12-20 12:00:00,Purau Bay Beach,20.0
+23.0,2022-12-29 08:00:00,Purau Bay Beach,41.0
+19.0,2023-01-10 10:00:00,Purau Bay Beach,10.0
+37.0,2023-01-18 12:00:00,Purau Bay Beach,52.0
+16.0,2023-01-27 11:00:00,Purau Bay Beach,10.0
+81.0,2023-02-01 13:00:00,Purau Bay Beach,5.0
+68.0,2023-02-10 11:00:00,Purau Bay Beach,5.0
+250.0,2023-02-15 11:00:00,Purau Bay Beach,3260.0
+90.0,2023-02-16 12:00:00,Purau Bay Beach,86.0
+64.0,2023-02-17 15:00:00,Purau Bay Beach,5.0
+40.0,2023-02-18 17:00:00,Purau Bay Beach,20.0
+40.0,2023-02-23 09:00:00,Purau Bay Beach,41.0
+17.0,2023-03-01 10:00:00,Purau Bay Beach,10.0
+22.0,2023-03-06 13:00:00,Purau Bay Beach,5.0
+11.0,2023-06-01 12:00:00,Purau Bay Beach,10.0
+23.0,2023-06-19 15:00:00,Purau Bay Beach,52.0
+13.0,2023-07-06 10:00:00,Purau Bay Beach,10.0
+165.0,2023-07-10 12:00:00,Purau Bay Beach,613.0
+20.0,2023-07-12 14:00:00,Purau Bay Beach,84.0
+15.0,2023-08-08 11:00:00,Purau Bay Beach,73.0
+45.0,2022-11-21 15:00:00,Rapaki Bay Beach,10.0
+61.0,2022-12-01 10:00:00,Rapaki Bay Beach,20.0
+65.0,2022-12-07 15:00:00,Rapaki Bay Beach,5.0
+13.0,2022-12-14 09:00:00,Rapaki Bay Beach,10.0
+14.0,2022-12-20 14:00:00,Rapaki Bay Beach,41.0
+25.0,2022-12-29 09:00:00,Rapaki Bay Beach,10.0
+21.0,2023-01-10 07:00:00,Rapaki Bay Beach,63.0
+32.0,2023-01-18 14:00:00,Rapaki Bay Beach,20.0
+18.0,2023-01-27 09:00:00,Rapaki Bay Beach,10.0
+62.0,2023-02-01 14:00:00,Rapaki Bay Beach,31.0
+31.0,2023-02-10 08:00:00,Rapaki Bay Beach,5.0
+1521.0,2023-02-15 13:00:00,Rapaki Bay Beach,650.0
+176.0,2023-02-16 14:00:00,Rapaki Bay Beach,613.0
+100.0,2023-02-17 13:00:00,Rapaki Bay Beach,5.0
+29.0,2023-02-18 14:00:00,Rapaki Bay Beach,5.0
+91.0,2023-02-23 08:00:00,Rapaki Bay Beach,173.0
+16.0,2023-02-25 09:00:00,Rapaki Bay Beach,5.0
+37.0,2023-03-01 13:00:00,Rapaki Bay Beach,5.0
+20.0,2023-03-06 15:00:00,Rapaki Bay Beach,5.0
+12.0,2023-06-01 15:00:00,Rapaki Bay Beach,10.0
+39.0,2023-06-19 16:00:00,Rapaki Bay Beach,5.0
+26.0,2023-07-06 13:00:00,Rapaki Bay Beach,10.0
+130.0,2023-07-10 10:00:00,Rapaki Bay Beach,295.0
+55.0,2023-07-12 12:00:00,Rapaki Bay Beach,173.0
+26.0,2023-08-08 10:00:00,Rapaki Bay Beach,5.0
+15.0,2022-11-17 12:00:00,Takamatua Bay Boat ramp,10.0
+30.0,2022-12-01 11:00:00,Takamatua Bay Boat ramp,5.0
+21.0,2022-12-07 14:00:00,Takamatua Bay Boat ramp,5.0
+33.0,2022-12-15 09:00:00,Takamatua Bay Boat ramp,5.0
+17.0,2022-12-20 13:00:00,Takamatua Bay Boat ramp,63.0
+38.0,2022-12-28 07:00:00,Takamatua Bay Boat ramp,84.0
+43.0,2023-01-10 06:00:00,Takamatua Bay Boat ramp,5.0
+35.0,2023-01-18 12:00:00,Takamatua Bay Boat ramp,51.0
+28.0,2023-01-27 07:00:00,Takamatua Bay Boat ramp,5.0
+35.0,2023-02-01 14:00:00,Takamatua Bay Boat ramp,20.0
+483.0,2023-02-15 12:00:00,Takamatua Bay Boat ramp,5.0
+15.0,2023-02-20 15:00:00,Takamatua Bay Boat ramp,5.0
+22.0,2023-03-01 11:00:00,Takamatua Bay Boat ramp,41.0
+29.0,2023-03-06 13:00:00,Takamatua Bay Boat ramp,5.0
+23.0,2023-03-15 11:00:00,Takamatua Bay Boat ramp,5.0
+18.0,2023-03-20 13:00:00,Takamatua Bay Boat ramp,31.0
+29.0,2022-11-17 10:00:00,Tikao Bay mid beach,20.0
+27.0,2022-12-01 10:00:00,Tikao Bay mid beach,41.0
+18.0,2022-12-07 15:00:00,Tikao Bay mid beach,10.0
+21.0,2022-12-15 08:00:00,Tikao Bay mid beach,20.0
+21.0,2022-12-20 12:00:00,Tikao Bay mid beach,5.0
+31.0,2022-12-28 06:00:00,Tikao Bay mid beach,74.0
+24.0,2023-01-10 05:00:00,Tikao Bay mid beach,5.0
+12.0,2023-01-18 11:00:00,Tikao Bay mid beach,5.0
+26.0,2023-01-27 09:00:00,Tikao Bay mid beach,41.0
+20.0,2023-02-01 13:00:00,Tikao Bay mid beach,5.0
+1851.0,2023-02-15 10:00:00,Tikao Bay mid beach,6130.0
+138.0,2023-02-17 13:00:00,Tikao Bay mid beach,10.0
+52.0,2023-02-20 14:00:00,Tikao Bay mid beach,5.0
+43.0,2023-03-01 11:00:00,Tikao Bay mid beach,5.0
+72.0,2023-03-06 16:00:00,Tikao Bay mid beach,5.0
+67.0,2023-03-15 09:00:00,Tikao Bay mid beach,10.0
+13.0,2023-03-20 14:00:00,Tikao Bay mid beach,20.0
+12.0,2022-11-17 09:00:00,Wainui Beach Wainui Beach,5.0
+18.0,2022-12-01 09:00:00,Wainui Beach Wainui Beach,5.0
+10.0,2022-12-07 15:00:00,Wainui Beach Wainui Beach,10.0
+11.0,2022-12-15 07:00:00,Wainui Beach Wainui Beach,10.0
+9.0,2022-12-20 12:00:00,Wainui Beach Wainui Beach,31.0
+16.0,2022-12-28 06:00:00,Wainui Beach Wainui Beach,20.0
+23.0,2023-01-10 05:00:00,Wainui Beach Wainui Beach,5.0
+8.0,2023-01-18 11:00:00,Wainui Beach Wainui Beach,5.0
+21.0,2023-01-27 10:00:00,Wainui Beach Wainui Beach,10.0
+17.0,2023-02-01 12:00:00,Wainui Beach Wainui Beach,5.0
+610.0,2023-02-15 10:00:00,Wainui Beach Wainui Beach,10000.0
+75.0,2023-02-17 12:00:00,Wainui Beach Wainui Beach,10.0
+17.0,2023-02-20 14:00:00,Wainui Beach Wainui Beach,52.0
+22.0,2023-03-01 10:00:00,Wainui Beach Wainui Beach,5.0
+33.0,2023-03-06 16:00:00,Wainui Beach Wainui Beach,31.0
+35.0,2023-03-15 10:00:00,Wainui Beach Wainui Beach,10.0
+10.0,2023-03-20 14:00:00,Wainui Beach Wainui Beach,20.0
+7.0,2023-06-01 11:00:00,Wainui Beach Wainui Beach,5.0
+56.0,2023-06-20 15:00:00,Wainui Beach Wainui Beach,5.0
+19.0,2023-07-06 12:00:00,Wainui Beach Wainui Beach,5.0
+177.0,2023-07-10 10:00:00,Wainui Beach Wainui Beach,1211.0
+110.0,2023-07-11 11:00:00,Wainui Beach Wainui Beach,187.0
+11.0,2023-07-12 11:00:00,Wainui Beach Wainui Beach,240.0
+16.0,2023-10-06 09:00:00,Akaroa at main beach,5.0
+22.0,2023-11-04 08:00:00,Akaroa at main beach,10.0
+23.0,2023-11-06 10:00:00,Akaroa at main beach,31.0
+37.0,2023-11-21 12:00:00,Akaroa at main beach,5.0
+153.0,2023-11-24 14:00:00,Akaroa at main beach,41.0
+14.0,2023-12-05 12:00:00,Akaroa at main beach,5.0
+13.0,2023-12-11 13:00:00,Akaroa at main beach,5.0
+12.0,2023-12-19 10:00:00,Akaroa at main beach,5.0
+72.0,2023-12-27 13:00:00,Akaroa at main beach,5.0
+11.0,2024-01-03 08:00:00,Akaroa at main beach,20.0
+12.0,2024-01-08 12:00:00,Akaroa at main beach,10.0
+17.0,2024-01-16 07:00:00,Akaroa at main beach,10.0
+9.0,2024-01-22 13:00:00,Akaroa at main beach,20.0
+157.0,2024-01-23 13:00:00,Akaroa at main beach,169.0
+42.0,2024-01-24 13:00:00,Akaroa at main beach,5.0
+14.0,2024-01-31 09:00:00,Akaroa at main beach,10.0
+7.0,2024-02-05 13:00:00,Akaroa at main beach,5.0
+41.0,2024-02-11 15:00:00,Akaroa at main beach,5.0
+18.0,2024-02-13 07:00:00,Akaroa at main beach,5.0
+38.0,2024-02-20 13:00:00,Akaroa at main beach,10.0
+9.0,2024-02-21 12:00:00,Akaroa at main beach,5.0
+125.0,2024-03-05 10:00:00,Akaroa at main beach,97.0
+11.0,2024-03-15 10:00:00,Akaroa at main beach,5.0
+14.0,2024-03-20 13:00:00,Akaroa at main beach,5.0
+8.0,2024-03-25 14:00:00,Akaroa at main beach,5.0
+93.0,2024-04-12 16:00:00,Akaroa at main beach,197.0
+11.0,2024-04-14 10:00:00,Akaroa at main beach,10.0
+34.0,2024-05-02 12:00:00,Akaroa at main beach,10.0
+66.0,2024-05-21 12:00:00,Akaroa at main beach,5.0
+213.0,2024-06-15 10:00:00,Akaroa at main beach,63.0
+176.0,2024-07-03 13:00:00,Akaroa at main beach,63.0
+87.0,2024-07-16 12:00:00,Akaroa at main beach,41.0
+706.0,2024-07-31 13:00:00,Akaroa at main beach,259.0
+24.0,2023-11-04 11:00:00,Cass Bay at boat ramp,10.0
+22.0,2023-11-15 07:00:00,Cass Bay at boat ramp,20.0
+79.0,2023-11-22 12:00:00,Cass Bay at boat ramp,10.0
+49.0,2023-11-27 16:00:00,Cass Bay at boat ramp,10.0
+521.0,2023-12-04 08:00:00,Cass Bay at boat ramp,98.0
+25.0,2023-12-11 16:00:00,Cass Bay at boat ramp,5.0
+42.0,2023-12-18 07:00:00,Cass Bay at boat ramp,5.0
+78.0,2023-12-28 05:00:00,Cass Bay at boat ramp,10.0
+17.0,2024-01-03 08:00:00,Cass Bay at boat ramp,62.0
+18.0,2024-01-08 14:00:00,Cass Bay at boat ramp,5.0
+65.0,2024-01-16 07:00:00,Cass Bay at boat ramp,5.0
+30.0,2024-01-25 16:00:00,Cass Bay at boat ramp,20.0
+26.0,2024-01-31 09:00:00,Cass Bay at boat ramp,5.0
+16.0,2024-02-07 15:00:00,Cass Bay at boat ramp,5.0
+35.0,2024-02-13 06:00:00,Cass Bay at boat ramp,10.0
+11.0,2024-02-19 14:00:00,Cass Bay at boat ramp,5.0
+14.0,2024-02-29 07:00:00,Cass Bay at boat ramp,20.0
+15.0,2024-03-04 12:00:00,Cass Bay at boat ramp,5.0
+20.0,2024-03-13 06:00:00,Cass Bay at boat ramp,52.0
+14.0,2024-03-15 08:00:00,Cass Bay at boat ramp,10.0
+98.0,2024-03-19 13:00:00,Cass Bay at boat ramp,10.0
+17.0,2024-03-28 06:00:00,Cass Bay at boat ramp,20.0
+60.0,2024-06-15 10:00:00,Cass Bay at boat ramp,41.0
+133.0,2024-07-03 14:00:00,Cass Bay at boat ramp,110.0
+41.0,2024-07-16 11:00:00,Cass Bay at boat ramp,52.0
+7.0,2023-11-15 08:00:00,Charteris Bay Paradise Beach,5.0
+21.0,2023-11-22 11:00:00,Charteris Bay Paradise Beach,41.0
+17.0,2023-11-27 15:00:00,Charteris Bay Paradise Beach,5.0
+523.0,2023-12-04 10:00:00,Charteris Bay Paradise Beach,5.0
+12.0,2023-12-11 14:00:00,Charteris Bay Paradise Beach,10.0
+55.0,2023-12-18 08:00:00,Charteris Bay Paradise Beach,5.0
+17.0,2023-12-28 07:00:00,Charteris Bay Paradise Beach,5.0
+9.0,2024-01-03 10:00:00,Charteris Bay Paradise Beach,5.0
+10.0,2024-01-08 13:00:00,Charteris Bay Paradise Beach,10.0
+53.0,2024-01-16 09:00:00,Charteris Bay Paradise Beach,10.0
+13.0,2024-01-25 15:00:00,Charteris Bay Paradise Beach,5.0
+10.0,2024-01-31 08:00:00,Charteris Bay Paradise Beach,5.0
+12.0,2024-02-07 14:00:00,Charteris Bay Paradise Beach,5.0
+17.0,2024-02-13 07:00:00,Charteris Bay Paradise Beach,10.0
+9.0,2024-02-19 12:00:00,Charteris Bay Paradise Beach,5.0
+11.0,2024-02-29 08:00:00,Charteris Bay Paradise Beach,10.0
+11.0,2024-03-04 11:00:00,Charteris Bay Paradise Beach,5.0
+16.0,2024-03-13 07:00:00,Charteris Bay Paradise Beach,30.0
+38.0,2024-03-19 12:00:00,Charteris Bay Paradise Beach,5.0
+10.0,2024-03-28 08:00:00,Charteris Bay Paradise Beach,5.0
+62.0,2024-06-15 11:00:00,Charteris Bay Paradise Beach,31.0
+134.0,2024-07-03 13:00:00,Charteris Bay Paradise Beach,74.0
+51.0,2024-07-16 13:00:00,Charteris Bay Paradise Beach,10.0
+14.0,2023-11-15 08:00:00,Church Bay Beach,156.0
+79.0,2023-11-20 11:00:00,Church Bay Beach,10.0
+31.0,2023-11-22 11:00:00,Church Bay Beach,63.0
+30.0,2023-11-27 14:00:00,Church Bay Beach,5.0
+404.0,2023-12-04 10:00:00,Church Bay Beach,228.0
+95.0,2023-12-06 12:00:00,Church Bay Beach,52.0
+19.0,2023-12-11 14:00:00,Church Bay Beach,5.0
+40.0,2023-12-18 09:00:00,Church Bay Beach,5.0
+41.0,2023-12-28 07:00:00,Church Bay Beach,5.0
+17.0,2024-01-03 10:00:00,Church Bay Beach,20.0
+16.0,2024-01-08 13:00:00,Church Bay Beach,5.0
+49.0,2024-01-16 09:00:00,Church Bay Beach,20.0
+16.0,2024-01-25 15:00:00,Church Bay Beach,10.0
+23.0,2024-01-31 08:00:00,Church Bay Beach,5.0
+15.0,2024-02-07 13:00:00,Church Bay Beach,5.0
+45.0,2024-02-13 07:00:00,Church Bay Beach,20.0
+15.0,2024-02-19 12:00:00,Church Bay Beach,5.0
+21.0,2024-02-29 08:00:00,Church Bay Beach,5.0
+18.0,2024-03-04 10:00:00,Church Bay Beach,5.0
+34.0,2024-03-13 08:00:00,Church Bay Beach,10.0
+45.0,2024-03-19 12:00:00,Church Bay Beach,5.0
+13.0,2024-03-28 08:00:00,Church Bay Beach,10.0
+41.0,2024-06-15 12:00:00,Church Bay Beach,85.0
+123.0,2024-07-03 12:00:00,Church Bay Beach,97.0
+43.0,2024-07-16 13:00:00,Church Bay Beach,41.0
+37.0,2023-11-04 10:00:00,Corsair Bay Beach,5.0
+54.0,2023-11-06 09:00:00,Corsair Bay Beach,5.0
+22.0,2023-11-15 07:00:00,Corsair Bay Beach,5.0
+55.0,2023-11-22 13:00:00,Corsair Bay Beach,5.0
+589.0,2023-11-24 14:00:00,Corsair Bay Beach,556.0
+49.0,2023-11-27 16:00:00,Corsair Bay Beach,5.0
+1068.0,2023-12-04 08:00:00,Corsair Bay Beach,465.0
+45.0,2023-12-06 10:00:00,Corsair Bay Beach,5.0
+21.0,2023-12-11 16:00:00,Corsair Bay Beach,5.0
+224.0,2023-12-18 07:00:00,Corsair Bay Beach,20.0
+51.0,2023-12-28 05:00:00,Corsair Bay Beach,5.0
+19.0,2024-01-03 08:00:00,Corsair Bay Beach,5.0
+15.0,2024-01-08 15:00:00,Corsair Bay Beach,5.0
+97.0,2024-01-16 07:00:00,Corsair Bay Beach,262.0
+26.0,2024-01-17 15:00:00,Corsair Bay Beach,84.0
+32.0,2024-01-25 17:00:00,Corsair Bay Beach,5.0
+48.0,2024-01-31 10:00:00,Corsair Bay Beach,5.0
+19.0,2024-02-07 15:00:00,Corsair Bay Beach,5.0
+302.0,2024-02-11 18:00:00,Corsair Bay Beach,683.0
+21.0,2024-02-13 05:00:00,Corsair Bay Beach,5.0
+16.0,2024-02-19 14:00:00,Corsair Bay Beach,5.0
+161.0,2024-02-20 14:00:00,Corsair Bay Beach,20.0
+23.0,2024-02-29 07:00:00,Corsair Bay Beach,5.0
+27.0,2024-03-04 12:00:00,Corsair Bay Beach,5.0
+41.0,2024-03-13 06:00:00,Corsair Bay Beach,759.0
+37.0,2024-03-15 09:00:00,Corsair Bay Beach,20.0
+97.0,2024-03-19 14:00:00,Corsair Bay Beach,20.0
+19.0,2024-03-28 06:00:00,Corsair Bay Beach,5.0
+3751.0,2024-04-12 08:00:00,Corsair Bay Beach,3450.0
+30.0,2024-04-14 09:00:00,Corsair Bay Beach,110.0
+30.0,2024-05-02 10:00:00,Corsair Bay Beach,5.0
+1741.0,2024-05-21 12:00:00,Corsair Bay Beach,384.0
+264.0,2024-06-15 09:00:00,Corsair Bay Beach,10.0
+765.0,2024-07-03 14:00:00,Corsair Bay Beach,1211.0
+227.0,2024-07-16 11:00:00,Corsair Bay Beach,52.0
+26.0,2023-11-04 12:00:00,Diamond Harbour Beach,30.0
+62.0,2023-11-06 10:00:00,Diamond Harbour Beach,52.0
+13.0,2023-11-15 09:00:00,Diamond Harbour Beach,30.0
+32.0,2023-11-22 10:00:00,Diamond Harbour Beach,5.0
+799.0,2023-11-24 12:00:00,Diamond Harbour Beach,1785.0
+31.0,2023-11-27 14:00:00,Diamond Harbour Beach,30.0
+568.0,2023-12-04 11:00:00,Diamond Harbour Beach,171.0
+79.0,2023-12-06 12:00:00,Diamond Harbour Beach,5.0
+24.0,2023-12-11 13:00:00,Diamond Harbour Beach,5.0
+32.0,2023-12-28 08:00:00,Diamond Harbour Beach,31.0
+17.0,2024-01-03 11:00:00,Diamond Harbour Beach,134.0
+16.0,2024-01-08 12:00:00,Diamond Harbour Beach,5.0
+79.0,2024-01-16 10:00:00,Diamond Harbour Beach,146.0
+17.0,2024-01-31 07:00:00,Diamond Harbour Beach,5.0
+20.0,2024-02-07 13:00:00,Diamond Harbour Beach,5.0
+398.0,2024-02-11 16:00:00,Diamond Harbour Beach,132.0
+63.0,2024-02-13 08:00:00,Diamond Harbour Beach,5.0
+15.0,2024-02-19 12:00:00,Diamond Harbour Beach,5.0
+98.0,2024-02-20 13:00:00,Diamond Harbour Beach,5.0
+22.0,2024-02-29 09:00:00,Diamond Harbour Beach,10.0
+14.0,2024-03-04 10:00:00,Diamond Harbour Beach,5.0
+34.0,2024-03-13 08:00:00,Diamond Harbour Beach,86.0
+78.0,2024-03-19 11:00:00,Diamond Harbour Beach,5.0
+14.0,2024-03-28 08:00:00,Diamond Harbour Beach,5.0
+830.0,2024-04-12 09:00:00,Diamond Harbour Beach,4610.0
+21.0,2024-04-14 10:00:00,Diamond Harbour Beach,5.0
+32.0,2024-05-02 11:00:00,Diamond Harbour Beach,5.0
+1396.0,2024-05-21 14:00:00,Diamond Harbour Beach,862.0
+202.0,2024-06-15 12:00:00,Diamond Harbour Beach,10.0
+1676.0,2024-07-03 12:00:00,Diamond Harbour Beach,1539.0
+136.0,2024-07-16 14:00:00,Diamond Harbour Beach,120.0
+10.0,2023-10-06 10:00:00,Duvauchelle Bay by camping ground,5.0
+25.0,2023-11-04 09:00:00,Duvauchelle Bay by camping ground,5.0
+28.0,2023-11-06 10:00:00,Duvauchelle Bay by camping ground,20.0
+15.0,2023-11-21 13:00:00,Duvauchelle Bay by camping ground,5.0
+129.0,2023-11-24 14:00:00,Duvauchelle Bay by camping ground,20.0
+8.0,2023-12-05 10:00:00,Duvauchelle Bay by camping ground,5.0
+8.0,2023-12-11 15:00:00,Duvauchelle Bay by camping ground,10.0
+10.0,2023-12-19 08:00:00,Duvauchelle Bay by camping ground,10.0
+65.0,2023-12-27 15:00:00,Duvauchelle Bay by camping ground,63.0
+7.0,2024-01-03 10:00:00,Duvauchelle Bay by camping ground,5.0
+8.0,2024-01-08 14:00:00,Duvauchelle Bay by camping ground,5.0
+16.0,2024-01-16 09:00:00,Duvauchelle Bay by camping ground,5.0
+9.0,2024-01-22 13:00:00,Duvauchelle Bay by camping ground,20.0
+61.0,2024-01-23 15:00:00,Duvauchelle Bay by camping ground,86.0
+28.0,2024-01-24 14:00:00,Duvauchelle Bay by camping ground,5.0
+14.0,2024-01-31 07:00:00,Duvauchelle Bay by camping ground,10.0
+10.0,2024-02-05 10:00:00,Duvauchelle Bay by camping ground,10.0
+36.0,2024-02-11 15:00:00,Duvauchelle Bay by camping ground,98.0
+12.0,2024-02-13 06:00:00,Duvauchelle Bay by camping ground,5.0
+52.0,2024-02-20 13:00:00,Duvauchelle Bay by camping ground,5.0
+13.0,2024-02-21 13:00:00,Duvauchelle Bay by camping ground,5.0
+51.0,2024-03-05 11:00:00,Duvauchelle Bay by camping ground,5.0
+12.0,2024-03-15 08:00:00,Duvauchelle Bay by camping ground,5.0
+17.0,2024-03-20 12:00:00,Duvauchelle Bay by camping ground,5.0
+9.0,2024-03-25 16:00:00,Duvauchelle Bay by camping ground,5.0
+52.0,2024-04-12 16:00:00,Duvauchelle Bay by camping ground,1120.0
+12.0,2024-04-14 10:00:00,Duvauchelle Bay by camping ground,20.0
+131.0,2024-05-02 11:00:00,Duvauchelle Bay by camping ground,98.0
+222.0,2024-05-21 13:00:00,Duvauchelle Bay by camping ground,134.0
+249.0,2024-06-15 10:00:00,Duvauchelle Bay by camping ground,6870.0
+366.0,2024-07-03 13:00:00,Duvauchelle Bay by camping ground,332.0
+345.0,2024-07-16 11:00:00,Duvauchelle Bay by camping ground,2190.0
+1185.0,2024-07-31 12:00:00,Duvauchelle Bay by camping ground,84.0
+10.0,2023-11-21 09:00:00,French Farm Bay,5.0
+7.0,2023-12-05 10:00:00,French Farm Bay,5.0
+7.0,2023-12-11 15:00:00,French Farm Bay,5.0
+9.0,2023-12-19 08:00:00,French Farm Bay,5.0
+33.0,2023-12-27 16:00:00,French Farm Bay,5.0
+7.0,2024-01-03 10:00:00,French Farm Bay,5.0
+7.0,2024-01-08 14:00:00,French Farm Bay,5.0
+14.0,2024-01-16 09:00:00,French Farm Bay,5.0
+7.0,2024-01-22 12:00:00,French Farm Bay,5.0
+7.0,2024-01-31 07:00:00,French Farm Bay,5.0
+7.0,2024-02-05 10:00:00,French Farm Bay,5.0
+10.0,2024-02-13 06:00:00,French Farm Bay,5.0
+8.0,2024-02-21 14:00:00,French Farm Bay,10.0
+24.0,2024-03-05 12:00:00,French Farm Bay,5.0
+10.0,2024-03-15 08:00:00,French Farm Bay,5.0
+10.0,2024-03-20 11:00:00,French Farm Bay,5.0
+7.0,2024-03-25 16:00:00,French Farm Bay,5.0
+51.0,2024-06-15 11:00:00,French Farm Bay,20.0
+52.0,2024-07-03 12:00:00,French Farm Bay,161.0
+51.0,2024-07-16 11:00:00,French Farm Bay,134.0
+480.0,2024-07-31 12:00:00,French Farm Bay,197.0
+11.0,2023-10-06 09:00:00,Glen Bay boat ramp,10.0
+29.0,2023-11-04 09:00:00,Glen Bay boat ramp,5.0
+27.0,2023-11-06 11:00:00,Glen Bay boat ramp,5.0
+23.0,2023-11-21 12:00:00,Glen Bay boat ramp,5.0
+131.0,2023-11-24 13:00:00,Glen Bay boat ramp,41.0
+10.0,2023-12-05 12:00:00,Glen Bay boat ramp,5.0
+11.0,2023-12-11 13:00:00,Glen Bay boat ramp,5.0
+12.0,2023-12-19 11:00:00,Glen Bay boat ramp,5.0
+64.0,2023-12-27 13:00:00,Glen Bay boat ramp,5.0
+11.0,2024-01-03 08:00:00,Glen Bay boat ramp,20.0
+11.0,2024-01-08 12:00:00,Glen Bay boat ramp,5.0
+19.0,2024-01-16 06:00:00,Glen Bay boat ramp,10.0
+11.0,2024-01-22 14:00:00,Glen Bay boat ramp,31.0
+138.0,2024-01-23 13:00:00,Glen Bay boat ramp,86.0
+32.0,2024-01-24 13:00:00,Glen Bay boat ramp,5.0
+15.0,2024-01-31 09:00:00,Glen Bay boat ramp,10.0
+13.0,2024-02-05 12:00:00,Glen Bay boat ramp,41.0
+32.0,2024-02-11 15:00:00,Glen Bay boat ramp,30.0
+14.0,2024-02-13 07:00:00,Glen Bay boat ramp,20.0
+35.0,2024-02-20 13:00:00,Glen Bay boat ramp,52.0
+10.0,2024-02-21 12:00:00,Glen Bay boat ramp,5.0
+149.0,2024-03-05 10:00:00,Glen Bay boat ramp,31.0
+11.0,2024-03-15 10:00:00,Glen Bay boat ramp,5.0
+17.0,2024-03-20 13:00:00,Glen Bay boat ramp,5.0
+9.0,2024-03-25 14:00:00,Glen Bay boat ramp,5.0
+49.0,2024-04-12 16:00:00,Glen Bay boat ramp,44.0
+9.0,2024-04-14 10:00:00,Glen Bay boat ramp,5.0
+26.0,2024-05-02 12:00:00,Glen Bay boat ramp,10.0
+44.0,2024-05-21 12:00:00,Glen Bay boat ramp,5.0
+209.0,2024-06-15 09:00:00,Glen Bay boat ramp,148.0
+105.0,2024-07-03 14:00:00,Glen Bay boat ramp,10.0
+65.0,2024-07-16 12:00:00,Glen Bay boat ramp,20.0
+469.0,2024-07-31 13:00:00,Glen Bay boat ramp,121.0
+29.0,2023-11-04 11:00:00,Governors Bay Sandy Beach,10.0
+12.0,2023-11-15 06:00:00,Governors Bay Sandy Beach,5.0
+327.0,2023-11-22 12:00:00,Governors Bay Sandy Beach,5.0
+93.0,2023-11-27 15:00:00,Governors Bay Sandy Beach,5.0
+828.0,2023-12-04 09:00:00,Governors Bay Sandy Beach,5.0
+60.0,2023-12-11 15:00:00,Governors Bay Sandy Beach,5.0
+51.0,2023-12-18 08:00:00,Governors Bay Sandy Beach,41.0
+146.0,2023-12-28 06:00:00,Governors Bay Sandy Beach,5.0
+37.0,2024-01-03 09:00:00,Governors Bay Sandy Beach,5.0
+35.0,2024-01-08 14:00:00,Governors Bay Sandy Beach,10.0
+120.0,2024-01-16 08:00:00,Governors Bay Sandy Beach,52.0
+49.0,2024-01-25 16:00:00,Governors Bay Sandy Beach,52.0
+35.0,2024-01-31 09:00:00,Governors Bay Sandy Beach,5.0
+16.0,2024-02-07 14:00:00,Governors Bay Sandy Beach,5.0
+208.0,2024-02-13 07:00:00,Governors Bay Sandy Beach,354.0
+38.0,2024-02-15 08:00:00,Governors Bay Sandy Beach,30.0
+11.0,2024-02-19 13:00:00,Governors Bay Sandy Beach,5.0
+40.0,2024-02-29 08:00:00,Governors Bay Sandy Beach,5.0
+16.0,2024-03-04 11:00:00,Governors Bay Sandy Beach,5.0
+55.0,2024-03-13 07:00:00,Governors Bay Sandy Beach,30.0
+255.0,2024-03-19 13:00:00,Governors Bay Sandy Beach,10.0
+15.0,2024-03-28 07:00:00,Governors Bay Sandy Beach,30.0
+1049.0,2024-04-12 08:00:00,Governors Bay Sandy Beach,4880.0
+53.0,2024-04-14 09:00:00,Governors Bay Sandy Beach,5.0
+181.0,2024-06-15 11:00:00,Governors Bay Sandy Beach,98.0
+420.0,2024-07-03 13:00:00,Governors Bay Sandy Beach,689.0
+220.0,2024-07-16 12:00:00,Governors Bay Sandy Beach,5.0
+25.0,2023-11-04 12:00:00,Purau Bay Beach,5.0
+30.0,2023-11-06 11:00:00,Purau Bay Beach,5.0
+12.0,2023-11-15 09:00:00,Purau Bay Beach,10.0
+36.0,2023-11-22 10:00:00,Purau Bay Beach,5.0
+208.0,2023-11-24 12:00:00,Purau Bay Beach,31.0
+29.0,2023-11-27 13:00:00,Purau Bay Beach,5.0
+141.0,2023-12-04 11:00:00,Purau Bay Beach,10.0
+16.0,2023-12-11 13:00:00,Purau Bay Beach,5.0
+31.0,2023-12-18 11:00:00,Purau Bay Beach,31.0
+14.0,2023-12-21 10:00:00,Purau Bay Beach,5.0
+32.0,2023-12-28 08:00:00,Purau Bay Beach,5.0
+67.0,2023-12-29 08:00:00,Purau Bay Beach,62.0
+15.0,2024-01-03 11:00:00,Purau Bay Beach,5.0
+15.0,2024-01-04 10:00:00,Purau Bay Beach,5.0
+22.0,2024-01-08 12:00:00,Purau Bay Beach,5.0
+33.0,2024-01-12 06:00:00,Purau Bay Beach,31.0
+51.0,2024-01-16 10:00:00,Purau Bay Beach,5.0
+14.0,2024-01-18 09:00:00,Purau Bay Beach,31.0
+18.0,2024-01-25 14:00:00,Purau Bay Beach,5.0
+28.0,2024-01-26 07:00:00,Purau Bay Beach,20.0
+15.0,2024-01-31 07:00:00,Purau Bay Beach,31.0
+22.0,2024-02-07 08:00:00,Purau Bay Beach,10.0
+14.0,2024-02-07 12:00:00,Purau Bay Beach,10.0
+16.0,2024-02-09 14:00:00,Purau Bay Beach,5.0
+100.0,2024-02-11 16:00:00,Purau Bay Beach,5.0
+63.0,2024-02-13 08:00:00,Purau Bay Beach,5.0
+20.0,2024-02-15 08:00:00,Purau Bay Beach,20.0
+17.0,2024-02-19 11:00:00,Purau Bay Beach,5.0
+39.0,2024-02-20 12:00:00,Purau Bay Beach,5.0
+11.0,2024-02-22 13:00:00,Purau Bay Beach,5.0
+18.0,2024-02-29 09:00:00,Purau Bay Beach,20.0
+19.0,2024-03-01 08:00:00,Purau Bay Beach,10.0
+16.0,2024-03-04 10:00:00,Purau Bay Beach,30.0
+19.0,2024-03-08 15:00:00,Purau Bay Beach,5.0
+25.0,2024-03-13 08:00:00,Purau Bay Beach,98.0
+26.0,2024-03-14 08:00:00,Purau Bay Beach,5.0
+34.0,2024-03-19 11:00:00,Purau Bay Beach,5.0
+22.0,2024-03-22 13:00:00,Purau Bay Beach,5.0
+15.0,2024-03-28 08:00:00,Purau Bay Beach,130.0
+16.0,2024-03-28 09:00:00,Purau Bay Beach,5.0
+288.0,2024-04-12 09:00:00,Purau Bay Beach,373.0
+25.0,2024-04-14 11:00:00,Purau Bay Beach,10.0
+26.0,2024-05-02 12:00:00,Purau Bay Beach,733.0
+433.0,2024-05-21 14:00:00,Purau Bay Beach,20.0
+65.0,2024-06-15 13:00:00,Purau Bay Beach,345.0
+261.0,2024-07-03 12:00:00,Purau Bay Beach,52.0
+81.0,2024-07-16 14:00:00,Purau Bay Beach,97.0
+28.0,2023-11-04 11:00:00,Rapaki Bay Beach,5.0
+45.0,2023-11-06 09:00:00,Rapaki Bay Beach,5.0
+14.0,2023-11-15 06:00:00,Rapaki Bay Beach,5.0
+71.0,2023-11-22 12:00:00,Rapaki Bay Beach,5.0
+528.0,2023-11-24 13:00:00,Rapaki Bay Beach,1266.0
+23.0,2023-11-27 15:00:00,Rapaki Bay Beach,20.0
+1729.0,2023-12-04 09:00:00,Rapaki Bay Beach,110.0
+29.0,2023-12-11 15:00:00,Rapaki Bay Beach,5.0
+203.0,2023-12-18 08:00:00,Rapaki Bay Beach,189.0
+28.0,2023-12-20 11:00:00,Rapaki Bay Beach,10.0
+36.0,2023-12-28 06:00:00,Rapaki Bay Beach,20.0
+27.0,2024-01-03 09:00:00,Rapaki Bay Beach,5.0
+34.0,2024-01-08 14:00:00,Rapaki Bay Beach,10.0
+130.0,2024-01-16 08:00:00,Rapaki Bay Beach,10.0
+22.0,2024-01-25 16:00:00,Rapaki Bay Beach,5.0
+39.0,2024-01-31 09:00:00,Rapaki Bay Beach,5.0
+25.0,2024-02-07 14:00:00,Rapaki Bay Beach,51.0
+283.0,2024-02-11 17:00:00,Rapaki Bay Beach,5790.0
+62.0,2024-02-13 06:00:00,Rapaki Bay Beach,171.0
+35.0,2024-02-15 08:00:00,Rapaki Bay Beach,10.0
+42.0,2024-02-19 13:00:00,Rapaki Bay Beach,5.0
+195.0,2024-02-20 14:00:00,Rapaki Bay Beach,20.0
+61.0,2024-02-29 07:00:00,Rapaki Bay Beach,20.0
+17.0,2024-03-04 11:00:00,Rapaki Bay Beach,20.0
+44.0,2024-03-13 06:00:00,Rapaki Bay Beach,216.0
+22.0,2024-03-15 08:00:00,Rapaki Bay Beach,20.0
+65.0,2024-03-19 13:00:00,Rapaki Bay Beach,340.0
+14.0,2024-03-21 13:00:00,Rapaki Bay Beach,5.0
+22.0,2024-03-28 07:00:00,Rapaki Bay Beach,5.0
+2665.0,2024-04-12 07:00:00,Rapaki Bay Beach,620.0
+29.0,2024-04-14 09:00:00,Rapaki Bay Beach,5.0
+23.0,2024-05-02 11:00:00,Rapaki Bay Beach,5.0
+502.0,2024-05-21 13:00:00,Rapaki Bay Beach,5.0
+209.0,2024-06-15 10:00:00,Rapaki Bay Beach,10.0
+731.0,2024-07-03 14:00:00,Rapaki Bay Beach,121.0
+105.0,2024-07-16 12:00:00,Rapaki Bay Beach,20.0
+82.0,2023-11-21 12:00:00,Takamatua Bay Boat ramp,52.0
+22.0,2023-12-05 11:00:00,Takamatua Bay Boat ramp,20.0
+13.0,2023-12-11 14:00:00,Takamatua Bay Boat ramp,52.0
+20.0,2023-12-19 10:00:00,Takamatua Bay Boat ramp,31.0
+47.0,2023-12-27 14:00:00,Takamatua Bay Boat ramp,5.0
+16.0,2024-01-03 08:00:00,Takamatua Bay Boat ramp,5.0
+42.0,2024-01-08 12:00:00,Takamatua Bay Boat ramp,86.0
+29.0,2024-01-16 07:00:00,Takamatua Bay Boat ramp,10.0
+31.0,2024-01-22 13:00:00,Takamatua Bay Boat ramp,10.0
+19.0,2024-01-31 09:00:00,Takamatua Bay Boat ramp,5.0
+20.0,2024-02-05 12:00:00,Takamatua Bay Boat ramp,10.0
+26.0,2024-02-13 07:00:00,Takamatua Bay Boat ramp,5.0
+15.0,2024-02-21 13:00:00,Takamatua Bay Boat ramp,5.0
+62.0,2024-03-05 10:00:00,Takamatua Bay Boat ramp,86.0
+16.0,2024-03-15 10:00:00,Takamatua Bay Boat ramp,5.0
+36.0,2024-03-20 12:00:00,Takamatua Bay Boat ramp,5.0
+16.0,2024-03-25 15:00:00,Takamatua Bay Boat ramp,5.0
+126.0,2024-06-15 10:00:00,Takamatua Bay Boat ramp,573.0
+124.0,2024-07-03 13:00:00,Takamatua Bay Boat ramp,5.0
+88.0,2024-07-16 12:00:00,Takamatua Bay Boat ramp,122.0
+373.0,2024-07-31 13:00:00,Takamatua Bay Boat ramp,749.0
+37.0,2023-10-31 09:00:00,Tikao Bay mid beach,109.0
+40.0,2023-11-04 10:00:00,Tikao Bay mid beach,10.0
+27.0,2023-11-06 12:00:00,Tikao Bay mid beach,62.0
+18.0,2023-11-21 09:00:00,Tikao Bay mid beach,5.0
+554.0,2023-11-24 11:00:00,Tikao Bay mid beach,573.0
+19.0,2023-12-05 09:00:00,Tikao Bay mid beach,20.0
+17.0,2023-12-11 16:00:00,Tikao Bay mid beach,10.0
+21.0,2023-12-19 08:00:00,Tikao Bay mid beach,5.0
+78.0,2023-12-27 16:00:00,Tikao Bay mid beach,285.0
+24.0,2023-12-30 09:00:00,Tikao Bay mid beach,52.0
+23.0,2024-01-03 10:00:00,Tikao Bay mid beach,10.0
+20.0,2024-01-08 15:00:00,Tikao Bay mid beach,10.0
+38.0,2024-01-16 09:00:00,Tikao Bay mid beach,31.0
+24.0,2024-01-22 12:00:00,Tikao Bay mid beach,5.0
+433.0,2024-01-23 14:00:00,Tikao Bay mid beach,20.0
+37.0,2024-01-24 14:00:00,Tikao Bay mid beach,110.0
+28.0,2024-01-31 07:00:00,Tikao Bay mid beach,10.0
+21.0,2024-02-05 10:00:00,Tikao Bay mid beach,10.0
+109.0,2024-02-11 16:00:00,Tikao Bay mid beach,313.0
+27.0,2024-02-13 06:00:00,Tikao Bay mid beach,30.0
+186.0,2024-02-20 12:00:00,Tikao Bay mid beach,1086.0
+29.0,2024-02-21 14:00:00,Tikao Bay mid beach,20.0
+153.0,2024-03-05 12:00:00,Tikao Bay mid beach,31.0
+30.0,2024-03-15 08:00:00,Tikao Bay mid beach,10.0
+19.0,2024-03-20 11:00:00,Tikao Bay mid beach,5.0
+17.0,2024-03-25 16:00:00,Tikao Bay mid beach,52.0
+126.0,2024-04-12 17:00:00,Tikao Bay mid beach,248.0
+28.0,2024-04-14 09:00:00,Tikao Bay mid beach,10.0
+102.0,2024-05-02 11:00:00,Tikao Bay mid beach,10.0
+151.0,2024-05-21 13:00:00,Tikao Bay mid beach,31.0
+273.0,2024-06-15 11:00:00,Tikao Bay mid beach,496.0
+588.0,2024-07-03 12:00:00,Tikao Bay mid beach,3450.0
+373.0,2024-07-16 11:00:00,Tikao Bay mid beach,1211.0
+1896.0,2024-07-31 12:00:00,Tikao Bay mid beach,5170.0
+12.0,2023-10-06 10:00:00,Wainui Beach Wainui Beach,5.0
+27.0,2023-11-04 10:00:00,Wainui Beach Wainui Beach,5.0
+11.0,2023-11-06 13:00:00,Wainui Beach Wainui Beach,5.0
+10.0,2023-11-21 10:00:00,Wainui Beach Wainui Beach,5.0
+408.0,2023-11-24 12:00:00,Wainui Beach Wainui Beach,63.0
+10.0,2023-12-05 09:00:00,Wainui Beach Wainui Beach,5.0
+10.0,2023-12-11 16:00:00,Wainui Beach Wainui Beach,5.0
+10.0,2023-12-19 08:00:00,Wainui Beach Wainui Beach,5.0
+42.0,2023-12-27 16:00:00,Wainui Beach Wainui Beach,84.0
+10.0,2024-01-03 10:00:00,Wainui Beach Wainui Beach,5.0
+14.0,2024-01-08 15:00:00,Wainui Beach Wainui Beach,5.0
+21.0,2024-01-16 10:00:00,Wainui Beach Wainui Beach,20.0
+10.0,2024-01-22 12:00:00,Wainui Beach Wainui Beach,5.0
+199.0,2024-01-23 14:00:00,Wainui Beach Wainui Beach,594.0
+28.0,2024-01-24 15:00:00,Wainui Beach Wainui Beach,63.0
+16.0,2024-01-31 06:00:00,Wainui Beach Wainui Beach,5.0
+10.0,2024-02-05 10:00:00,Wainui Beach Wainui Beach,5.0
+57.0,2024-02-11 15:00:00,Wainui Beach Wainui Beach,275.0
+15.0,2024-02-13 06:00:00,Wainui Beach Wainui Beach,5.0
+77.0,2024-02-20 12:00:00,Wainui Beach Wainui Beach,373.0
+23.0,2024-02-21 14:00:00,Wainui Beach Wainui Beach,5.0
+89.0,2024-03-05 13:00:00,Wainui Beach Wainui Beach,211.0
+15.0,2024-03-07 14:00:00,Wainui Beach Wainui Beach,5.0
+14.0,2024-03-15 08:00:00,Wainui Beach Wainui Beach,5.0
+13.0,2024-03-20 11:00:00,Wainui Beach Wainui Beach,5.0
+13.0,2024-03-25 16:00:00,Wainui Beach Wainui Beach,5.0
+82.0,2024-04-12 17:00:00,Wainui Beach Wainui Beach,84.0
+16.0,2024-04-14 09:00:00,Wainui Beach Wainui Beach,41.0
+78.0,2024-05-02 10:00:00,Wainui Beach Wainui Beach,62.0
+64.0,2024-05-21 14:00:00,Wainui Beach Wainui Beach,5.0
+152.0,2024-06-15 11:00:00,Wainui Beach Wainui Beach,238.0
+248.0,2024-07-03 11:00:00,Wainui Beach Wainui Beach,63.0
+144.0,2024-07-16 11:00:00,Wainui Beach Wainui Beach,20.0
+580.0,2024-07-31 11:00:00,Wainui Beach Wainui Beach,132.0

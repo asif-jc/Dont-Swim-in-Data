@@ -1,0 +1,80 @@
+{
+    "metrics": [
+        "rmse",
+        "sensitivity",
+        "specificity",
+        "wmape_safe",
+        "wmape_exceedance"
+    ],
+    "exceedance_threshold": 280,
+    "precautionary_threshold": 140,
+    "results": {
+        "fold_results": {
+            "fold_1": {
+                "TP": 9,
+                "FP": 6,
+                "TN": 221,
+                "FN": 20,
+                "rmse": 452.6574613808437,
+                "rmse_safe": 88.54464515159584,
+                "rmse_exceedance": 1321.8896088293584,
+                "wmape_safe": 109.00810979413599,
+                "wmape_exceedance": 74.1109109970162,
+                "sensitivity": 0.3103448275862069,
+                "specificity": 0.973568281938326
+            },
+            "fold_2": {
+                "TP": 11,
+                "FP": 3,
+                "TN": 296,
+                "FN": 23,
+                "rmse": 785.6462059737582,
+                "rmse_safe": 64.95473082737074,
+                "rmse_exceedance": 2451.1665350100025,
+                "wmape_safe": 125.02692998204668,
+                "wmape_exceedance": 81.10211042421659,
+                "sensitivity": 0.3235294117647059,
+                "specificity": 0.9899665551839465
+            },
+            "fold_3": {
+                "TP": 23,
+                "FP": 18,
+                "TN": 403,
+                "FN": 14,
+                "rmse": 566.4498054515244,
+                "rmse_safe": 139.77611042352925,
+                "rmse_exceedance": 1936.3598894889406,
+                "wmape_safe": 187.58932238193017,
+                "wmape_exceedance": 74.9277317402197,
+                "sensitivity": 0.6216216216216216,
+                "specificity": 0.9572446555819477
+            },
+            "overall": {
+                "TP": 43,
+                "FP": 27,
+                "TN": 920,
+                "FN": 57,
+                "rmse": 621.9107714462572,
+                "rmse_safe": 109.07337464278902,
+                "rmse_exceedance": 1984.149387017016,
+                "wmape_safe": 147.21317218427046,
+                "wmape_exceedance": 77.27284094177075,
+                "sensitivity": 0.43,
+                "specificity": 0.9714889123548046
+            }
+        },
+        "fold_predictions": "Saved to evaluation_results_fold_predictions.csv",
+        "fold_predictions_summary": {
+            "shape": [
+                1047,
+                4
+            ],
+            "columns": [
+                "predictions",
+                "DateTime",
+                "SITE_NAME",
+                "Enterococci"
+            ]
+        }
+    }
+}
