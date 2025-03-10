@@ -77,12 +77,9 @@ class MatrixDecompositionFramework:
         data_preprocessor = Preprocessor()
 
         self.training_enterococci_matrix = self.decomposition_model.target_matrix(data)
-        print(self.training_enterococci_matrix)
         
         # Perform NMF decomposition on X_matrix.
         self.W, self.H = self.decomposition_model.decompose(self.training_enterococci_matrix)
-        print(self.W.shape)
-        print(self.H.shape)
         self.logger.info("Decomposition complete: latent factors W and H obtained.")
         
         # Prepare training data for the temporal model.
@@ -178,9 +175,25 @@ class MatrixDecompositionFramework:
         
         # Create a DataFrame with index as dates and columns as site names.
         pred_matrix = pd.DataFrame(X_hat, index=W_hat_df.index, columns=H_hat_df.index)
+
+
+        # Multi-output model
+        pred_matrix.reset_index(drop=False, inplace=True)
+
+        y_pred = pred_matrix.melt(
+            id_vars=['DateTime'],
+            var_name='SITE_NAME',
+            value_name='predictions'
+            )
+
+        y_temp = pd.DataFrame(data = {"DateTime": data["DateTime"], "SITE_NAME": data["SITE_NAME"]})
+
+        y_pred = pd.merge(y_pred, y_temp, on=['DateTime', 'SITE_NAME'], how='right')
+        y_pred.drop(columns=['SITE_NAME', 'DateTime'], inplace=True)
+        y_pred = pd.Series(y_pred['predictions'], name='predictions')
         
         self.logger.info("Prediction complete using Matrix Decomposition Framework.")
-        return pred_matrix
+        return y_pred
 
 
     def save(self, output_path: Path) -> None:

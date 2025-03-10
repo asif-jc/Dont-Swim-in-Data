@@ -8,6 +8,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from functools import reduce
 import dash
+import os
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
 from sklearn.metrics import (
@@ -18,6 +19,7 @@ from sklearn.metrics import (
 
 project_root = Path(__file__).resolve().parent.parent.parent
 sys.path.append(str(project_root))
+
 
 from src.utils.logging import setup_logger
 
@@ -32,7 +34,6 @@ def generate_dashboard(forecast):
     
     Args:
         forecast (dict): Dictionary of DataFrames with model predictions
-        quantile_forecast (pd.DataFrame): DataFrame with quantile predictions
         
     Returns:
         dash.Dash: Dashboard application
@@ -40,27 +41,23 @@ def generate_dashboard(forecast):
     logger.info("Generating dashboard...")
     
     # Define common columns from the first model's DataFrame:
-    # Exclude both "predictions" and any columns that look like quantile columns.
     first_df = next(iter(forecast.values()))
     common_cols = [col for col in first_df.columns if col != "predictions" and not col.startswith("q_")]
 
     dfs = []
     for model, df in forecast.items():
         df_copy = df.copy()
-        # Rename the predictions column to the model name.
         df_copy = df_copy.rename(columns={"predictions": model})
         
         if model == "probabilistic_framework":
-            # For the probabilistic model, automatically detect any quantile columns.
             quantile_cols = [col for col in df_copy.columns if col.startswith("q_")]
             selected_cols = common_cols + quantile_cols + [model]
         else:
             selected_cols = common_cols + [model]
         
-        # This will only select columns that actually exist in df_copy.
         dfs.append(df_copy[selected_cols])
 
-    # Merge on the common columns; the extra quantile columns will only be present from the probabilistic model.
+    # Merge on the common columns
     merged_df = reduce(lambda left, right: pd.merge(left, right, on=common_cols, how='inner'), dfs)
     data = merged_df.copy()
 
@@ -69,8 +66,6 @@ def generate_dashboard(forecast):
     performance_tables = {}
     
     for model in model_names:
-        # Create a temporary DataFrame with the model prediction renamed to "PREDICTION"
-        # for compatibility with the performance metrics functions
         temp_df = data.copy()
         temp_df["PREDICTION"] = temp_df[model]
         performance_tables[model] = create_performance_table(temp_df)
@@ -78,16 +73,21 @@ def generate_dashboard(forecast):
     # Create Dash application
     app = dash.Dash(__name__, suppress_callback_exceptions=True)
     
-    # Define layout
+    # Define layout with banner image
     app.layout = html.Div([
+        # Banner Image
+        html.Img(
+            src= r'C:\Users\AsifCheena\OneDrive - BSL\Desktop\IMPORTANT REPOS\Dont-Swim-in-Data\assets\beach.png',  # Path to the banner image
+            style={'width': '100%', 'height': 'auto', 'margin-bottom': '20px'}
+        ),
+        
+        # Dashboard Title
         html.H1(
             "FORECAST PERFORMANCE DASHBOARD",
-            style={'textAlign': 'center', 'color': 'green'}
+            style={'textAlign': 'center', 'color': 'green', 'margin-bottom': '20px'}
         ),
-        html.Img(
-            src='assets/beach.png',  # Path to the banner image
-            style={'width': '100%', 'height': '10%'}
-        ),
+        
+        # Dropdowns for site, plot type, and model selection
         html.Div([
             html.Div([
                 html.H3("Site Selection", style={'textAlign': 'center'}),
@@ -123,12 +123,14 @@ def generate_dashboard(forecast):
             ], style={'width': '30%', 'display': 'inline-block', 'padding': '10px'}),
         ], style={'display': 'flex', 'justifyContent': 'space-between', 'padding': '10px'}),
         
+        # Graph for forecasts
         html.Br(),
         dcc.Graph(
             id='forecast-graph',
             style={'width': '100%', 'height': '70vh'}
         ),
         
+        # Performance Metrics Table
         html.Br(),
         html.H2("Performance Metrics", style={'textAlign': 'center'}),
         dash_table.DataTable(
@@ -168,7 +170,6 @@ def generate_dashboard(forecast):
         if selected_plot_type == 'model_comparison':
             return generate_model_comparison_plot(site_data, model_names, y_max=1000)
         elif selected_plot_type == 'quantile_forecast':
-            # Find appropriate quantile columns for the uncertainty bounds
             lower_quantile = next((col for col in site_data.columns if col.startswith('q_0.0') or col.startswith('q_0.1')), None)
             upper_quantile = next((col for col in site_data.columns if col.startswith('q_0.9')), None)
             
@@ -181,7 +182,6 @@ def generate_dashboard(forecast):
                 cap_value=1000
             )
         
-        # Default return an empty figure if no valid plot type is selected
         return go.Figure()
     
     # Define callback for updating the performance table based on model selection
@@ -196,7 +196,6 @@ def generate_dashboard(forecast):
             columns = [{"name": i, "id": i} for i in df.columns]
             return df.to_dict('records'), columns
         
-        # Default return empty table if no model is selected
         return [], []
     
     return app

@@ -58,18 +58,22 @@ class Evaluator:
         """
         # Generate predictions
         y_pred_fold = model.predict(X)
-        print(y_pred_fold)
-
-        # Handle multi-output models
-        # need to add the proper logic for evaluation for this model dropping using the old pipeline as an example
-        # think about the best place for impolenebnting this logic before doing it as this function might not be optimal
-
-
-
-
 
         if isinstance(y_pred_fold, pd.DataFrame) and y_pred_fold.shape[1] > 1:
-            y_pred = y_pred_fold["predictions"]
+            # Multi-output model
+            y_pred_fold.reset_index(drop=False, inplace=True)
+
+            y_pred = y_pred_fold.melt(
+                id_vars=['DateTime'],
+                var_name='SITE_NAME',
+                value_name='predictions'
+                )
+
+            y_temp = pd.DataFrame(data = {"Enterococci": y, "DateTime": X["DateTime"], "SITE_NAME": X["SITE_NAME"]})
+
+            y_pred = pd.merge(y_pred, y_temp, on=['DateTime', 'SITE_NAME'], how='right')
+            y_pred.drop(columns=['Enterococci', 'SITE_NAME', 'DateTime'], inplace=True)
+            y_pred = pd.Series(y_pred['predictions'], name='predictions')
         else: 
             y_pred = y_pred_fold.copy()
 

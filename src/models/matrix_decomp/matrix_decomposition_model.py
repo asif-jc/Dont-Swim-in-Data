@@ -71,9 +71,6 @@ class MatrixDecompositionModel:
 
     def target_matrix(self, data: pd.DataFrame) -> pd.DataFrame:
 
-        print(data)
-        data.info()
-
         # Preprocess the data
         preprocessor = Preprocessor()
         processed_data = preprocessor.label_encode(data)
