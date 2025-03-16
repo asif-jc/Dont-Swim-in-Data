@@ -83,14 +83,24 @@ class MatrixDecompositionFramework:
         self.logger.info("Decomposition complete: latent factors W and H obtained.")
         
         # Prepare training data for the temporal model.
-        self.time_features = [col for col in data.columns if col not in self.site_features + [self.target_column]]
+        self.time_features = [col for col in data.columns if col not in self.site_features + [self.target_column] + ['tidal_state', 'wind_shore_3h', 'wind_shore_6h', 'wind_shore_12h']]
 
         time_data = data.drop_duplicates(self.date_column)
         temporal_X = time_data[self.time_features]
+        temporal_X = data_preprocessor.fill_missing_values(temporal_X, 'mean')
         temporal_y = pd.DataFrame(self.W, index=self.training_enterococci_matrix.index)
 
         temporal_X_datetime, temporal_X[self.date_column] = temporal_X[self.date_column], 0
         temporal_X = data_preprocessor.label_encode(temporal_X)
+
+        temporal_features_debug = temporal_X.copy()
+        temporal_features_debug["DateTime"] = temporal_X_datetime
+        temporal_features_debug.to_csv("data/processed/temporal_features.csv", index=False)
+
+        temporal_X = pd.read_csv("/Users/asif/Documents/Forecasting Microbial Contamination (Master's Project)/Code/Cleaned-Machine-Learning-Pipeline-Safeswim/ml_pipeline/Experiment Results/Matrix Framework/temporal_data_old.csv")
+        temporal_y = pd.read_csv("/Users/asif/Documents/Forecasting Microbial Contamination (Master's Project)/Code/Cleaned-Machine-Learning-Pipeline-Safeswim/ml_pipeline/Experiment Results/Matrix Framework/temporal_y_old.csv")
+        print(temporal_X)
+        print(temporal_y)
 
         # Train the temporal multi-output regression model
         self.temporal_model = RandomForestRegressor()
@@ -103,12 +113,14 @@ class MatrixDecompositionFramework:
         spatial_X = site_data[self.site_features]
         spatial_y = pd.DataFrame(self.H.T, index=self.training_enterococci_matrix.columns)
         spatial_X = data_preprocessor.label_encode(spatial_X)
+        spatial_X["SITE_NAME"] = 0
         
         self.spatial_model = RandomForestRegressor()
         # print(spatial_X)
         # print(spatial_y)
         # spatial_X.info()
         # spatial_y.info()
+        spatial_X.to_csv("data/processed/spatial_features.csv")
 
         self.spatial_model.fit(spatial_X, spatial_y)
         self.logger.info("Spatial model training complete.")

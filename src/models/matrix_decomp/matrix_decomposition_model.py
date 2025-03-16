@@ -31,6 +31,8 @@ class MatrixDecompositionModel:
         self.l1_ratio = config.get("l1_ratio", 0.0)
         self.random_state = config.get("random_state", 42)
         self.tol = config.get("tol", 1e-4)
+        self.max_iter = config.get("max_iter", 1000)
+        self.solver = config.get("solver", "mu")
         self.nmf = None
 
     def decompose(self, X: pd.DataFrame) -> Tuple[np.ndarray, np.ndarray]:
@@ -45,15 +47,25 @@ class MatrixDecompositionModel:
             H: np.ndarray with shape (n_components, n_features) representing spatial factors.
         """
         logger.info("Performing NMF decomposition on input data matrix.")
+        # self.nmf = NMF(n_components=self.n_components,
+        #                init=self.init,
+        #                alpha_W=self.alpha,
+        #                alpha_H='same',
+        #                l1_ratio=self.l1_ratio,
+        #                tol=self.tol,
+        #                random_state=self.random_state)
         self.nmf = NMF(n_components=self.n_components,
                        init=self.init,
-                       alpha_W=self.alpha,
-                       alpha_H='same',
-                       l1_ratio=self.l1_ratio,
-                       tol=self.tol,
+                       solver=self.solver,
+                       max_iter=self.max_iter,
                        random_state=self.random_state)
         W = self.nmf.fit_transform(X)
         H = self.nmf.components_
+
+        X.to_csv("data/processed/matrix_decomp_data.csv")
+        pd.DataFrame(W).to_csv("data/processed/W.csv")
+        pd.DataFrame(H).to_csv("data/processed/H.csv")
+
         logger.info(f"NMF decomposition complete: W shape {W.shape}, H shape {H.shape}")
         return W, H
 

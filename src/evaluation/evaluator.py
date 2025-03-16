@@ -43,7 +43,7 @@ class Evaluator:
         self.train_metrics = {}
         self.test_metrics = {}
 
-    def evaluate_model(self, model: Any, X: pd.DataFrame, y: pd.Series, 
+    def evaluate_model(self, model: Any, model_name: str, X: pd.DataFrame, y: pd.Series, 
                      dataset_name: str = "test") -> Dict[str, float]:
         """Evaluate a model on a given dataset.
         
@@ -59,21 +59,9 @@ class Evaluator:
         # Generate predictions
         y_pred_fold = model.predict(X)
 
-        if isinstance(y_pred_fold, pd.DataFrame) and y_pred_fold.shape[1] > 1:
-            # Multi-output model
-            y_pred_fold.reset_index(drop=False, inplace=True)
+        if (model_name == "probabilistic_framework"):
+            y_pred = y_pred_fold['predictions']
 
-            y_pred = y_pred_fold.melt(
-                id_vars=['DateTime'],
-                var_name='SITE_NAME',
-                value_name='predictions'
-                )
-
-            y_temp = pd.DataFrame(data = {"Enterococci": y, "DateTime": X["DateTime"], "SITE_NAME": X["SITE_NAME"]})
-
-            y_pred = pd.merge(y_pred, y_temp, on=['DateTime', 'SITE_NAME'], how='right')
-            y_pred.drop(columns=['Enterococci', 'SITE_NAME', 'DateTime'], inplace=True)
-            y_pred = pd.Series(y_pred['predictions'], name='predictions')
         else: 
             y_pred = y_pred_fold.copy()
 
@@ -81,7 +69,6 @@ class Evaluator:
         y_pred.index = y.index
         metrics_results = self._calculate_metrics(y, y_pred)
 
-        
         # Store results
         if dataset_name not in self.results:
             self.results[dataset_name] = {}
@@ -717,7 +704,7 @@ class Evaluator:
         print('\n')
 
         print(colored("-----", 'cyan'))
-        print(colored(f"TEST PERFORMANCE (2021-10 - 2023-10))", 'light_cyan'))
+        print(colored(f"TEST PERFORMANCE (2021-10 - 2024-10))", 'light_cyan'))
         print('\n')
         print(colored("Accuracy:", 'green'), colored(avg_test_accuracy, 'green'))
         print(colored("Sensitivity/Recall (EXCEEDANCE):", 'green'), colored(avg_test_recall_exceedance, 'green'))

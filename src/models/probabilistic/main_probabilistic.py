@@ -45,8 +45,8 @@ class ProbabilisticForecastingModel:
         # Initialize the quantile ensemble component using configuration settings
         self.quantile_ensemble = ProbabilisticQuantileEnsembleModel(config)
         
-        # Placeholders for meta-learner and calibration components (to be implemented later)
-        self.meta_learner = None
+        # Placeholders for meta-learner and calibration components
+        self.meta_learner = self.config["models"]["probabilistic_framework"].get("meta_learner")
         self.calibration_params = None
 
     def train(self, data: pd.DataFrame) -> None:
@@ -111,8 +111,10 @@ class ProbabilisticForecastingModel:
         # print(upper_prediction_interval)
         
         # Generate point forecast using the meta-learner
-        # point_forecast = self.apply_meta_learner(self.training_oof_quantile_forecast, quantile_preds)
-        point_forecast = self.apply_average_quantile(quantile_preds)
+        if self.meta_learner:
+            point_forecast = self.apply_meta_learner(self.training_oof_quantile_forecast, quantile_preds)
+        else:
+            point_forecast = self.apply_average_quantile(quantile_preds)
 
         quantile_preds = self.monotonic_sort_quantiles(quantile_preds, quantile_preds.columns)
         

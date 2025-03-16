@@ -12,7 +12,7 @@ feature_engineering:
   rainfall_lags: [3, 6, 12, 24, 48, 72]
   wind_lags: [3, 6, 12, 24]
   tide_lags: [1, 2, 3]
-  transform_target: true
+  transform_target: false
   target_transform_method: "log"
 
 models:
@@ -21,7 +21,7 @@ models:
     # quantiles: [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90, 0.95, 0.975]
     # quantiles: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.925, 0.95, 0.975]
     quantiles: [0.20, 0.35, 0.50, 0.60, 0.70, 0.75, 0.80, 0.85, 0.90, 0.925, 0.95, 0.975]
-    meta_learner: true
+    meta_learner: false
     calibration: true
     lgb_params:
       n_estimators: 180
@@ -51,6 +51,7 @@ models:
     l1_ratio: 0.0
     max_iter: 1000
     tol: 1e-4
+    solver: 'mu'
     random_state: None
     time_model_type: "random_forest"
     space_model_type: "random_forest"
@@ -89,12 +90,14 @@ pipeline:
   # models_to_process: ["lightgbm", "linear_regression", "decision_tree", "mlp"]
   # models_to_train: ["probabilistic_framework", "lightgbm", "matrix_decomposition_framework"]
   # models_to_process: ["probabilistic_framework", "lightgbm", "matrix_decomposition_framework"]
-  models_to_train: ["matrix_decomposition_framework"]
-  models_to_process: ["matrix_decomposition_framework"]
+  models_to_train: ["probabilistic_framework"]
+  models_to_process: ["probabilistic_framework"]
+  # models_to_train: ["matrix_decomposition_framework"]
+  # models_to_process: ["matrix_decomposition_framework"]
 
 prediction:
   # model_name: ["probabilistic", "lightgbm", "matrix_decomposition_framework"]
-  model_name: ["matrix_decomposition_framework"]
+  model_name: ["probabilistic_framework"]
   # model_path: "models/lightgbm.joblib"
   output_path: "results/predictions.csv"
   generate_visualizations: true

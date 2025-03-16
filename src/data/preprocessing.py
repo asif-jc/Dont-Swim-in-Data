@@ -47,7 +47,7 @@ class Preprocessor:
     
     def transform_catergorical_variable_type(self, df):
         CAT_FEATURES = ["SITE_NAME", "WEEK", "DAY_OF_WEEK", "MONTH", "YEAR", "Season", "Harbour", "tidal_state", 'Shallowness', 'Soil_type', 
-                        'Catchment_slope', 'Landcover_catchment', 'watercraft_use', 'high_intensity_agri_beach', 'potential_animal_contamination', 'stormwater_outlet_beach', 
+                        'Landcover_catchment', 'watercraft_use', 'high_intensity_agri_beach', 'potential_animal_contamination', 'stormwater_outlet_beach', 
                         'sewage_discharge_beach', 'Timing', 'WEEKEND', 'Landcover_site', 'ENSO', 'TIME_OF_DAY', 'wind_shore_3h', 'wind_shore_6h', 'wind_shore_12h']
         for c in CAT_FEATURES:
             if c in df.columns:
