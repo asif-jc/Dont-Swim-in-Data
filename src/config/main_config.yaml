@@ -46,7 +46,8 @@ models:
   
   matrix_decomposition_framework:
     n_components: 4
-    init: 'nndsvd'
+    # init: 'nndsvd'
+    init: 'nndsvdar'
     alpha: 0.0
     l1_ratio: 0.0
     max_iter: 1000
@@ -82,22 +83,23 @@ evaluation:
     method: "time_series_cv"
     n_splits: 3
     test_periods: ["2021-10-01_2022-10-01", "2022-10-01_2023-10-01", "2023-10-01_2024-10-01"]
+    # test_periods: ["2023-10-01_2024-10-01"]
   report_path: "reports/evaluation_results.json"
 
 pipeline:
   # models_to_train: ["probabilistic_framework", "matrix_decomposition_framework", "linear_regression", "decision_tree", "lightgbm"]
   random_seed: None
   # models_to_process: ["lightgbm", "linear_regression", "decision_tree", "mlp"]
-  # models_to_train: ["probabilistic_framework", "lightgbm", "matrix_decomposition_framework"]
-  # models_to_process: ["probabilistic_framework", "lightgbm", "matrix_decomposition_framework"]
-  models_to_train: ["probabilistic_framework"]
-  models_to_process: ["probabilistic_framework"]
+  models_to_train: ["probabilistic_framework", "lightgbm", "matrix_decomposition_framework"]
+  models_to_process: ["probabilistic_framework", "lightgbm", "matrix_decomposition_framework"]
+  # models_to_train: ["probabilistic_framework"]
+  # models_to_process: ["probabilistic_framework"]
   # models_to_train: ["matrix_decomposition_framework"]
   # models_to_process: ["matrix_decomposition_framework"]
 
 prediction:
-  # model_name: ["probabilistic", "lightgbm", "matrix_decomposition_framework"]
-  model_name: ["probabilistic_framework"]
+  model_name: ["probabilistic", "lightgbm", "matrix_decomposition_framework"]
+  # model_name: ["matrix_decomposition_framework"]
   # model_path: "models/lightgbm.joblib"
   output_path: "results/predictions.csv"
   generate_visualizations: true

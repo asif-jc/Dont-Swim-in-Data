@@ -69,11 +69,7 @@ class MatrixDecompositionFramework:
                   site_column, and target_column.
         """
         self.logger.info("Starting training for Matrix Decomposition Framework.")
-        
-        # Pivot the data: rows = unique dates, columns = unique sites, values = target measurement.
-        # X_matrix = data.pivot(index=self.date_column, columns=self.site_column, values=self.target_column)
-        # X_matrix = X_matrix.fillna(0)  # Fill missing values as appropriate
-
+    
         data_preprocessor = Preprocessor()
 
         self.training_enterococci_matrix = self.decomposition_model.target_matrix(data)
@@ -83,10 +79,13 @@ class MatrixDecompositionFramework:
         self.logger.info("Decomposition complete: latent factors W and H obtained.")
         
         # Prepare training data for the temporal model.
-        self.time_features = [col for col in data.columns if col not in self.site_features + [self.target_column] + ['tidal_state', 'wind_shore_3h', 'wind_shore_6h', 'wind_shore_12h']]
+        self.time_features = [col for col in data.columns if col not in self.site_features + [self.target_column] + ['tidal_state', 'wind_shore_3h', 'wind_shore_6h', 'wind_shore_12h'] + 
+                              ['wind_direction_3h', 'wind_direction_6h', 'wind_direction_12h', 'wind_speed_3h', 'wind_speed_6h', 'wind_speed_12h']]
 
-        time_data = data.drop_duplicates(self.date_column)
-        temporal_X = time_data[self.time_features]
+        data[[col for col in self.time_features if col != self.date_column]] = data[[col for col in self.time_features if col != self.date_column]].astype(float)
+
+        temporal_X = data[self.time_features]
+        temporal_X = temporal_X.groupby(self.date_column, as_index=False).mean()
         temporal_X = data_preprocessor.fill_missing_values(temporal_X, 'mean')
         temporal_y = pd.DataFrame(self.W, index=self.training_enterococci_matrix.index)
 
@@ -96,11 +95,6 @@ class MatrixDecompositionFramework:
         temporal_features_debug = temporal_X.copy()
         temporal_features_debug["DateTime"] = temporal_X_datetime
         temporal_features_debug.to_csv("data/processed/temporal_features.csv", index=False)
-
-        temporal_X = pd.read_csv("/Users/asif/Documents/Forecasting Microbial Contamination (Master's Project)/Code/Cleaned-Machine-Learning-Pipeline-Safeswim/ml_pipeline/Experiment Results/Matrix Framework/temporal_data_old.csv")
-        temporal_y = pd.read_csv("/Users/asif/Documents/Forecasting Microbial Contamination (Master's Project)/Code/Cleaned-Machine-Learning-Pipeline-Safeswim/ml_pipeline/Experiment Results/Matrix Framework/temporal_y_old.csv")
-        print(temporal_X)
-        print(temporal_y)
 
         # Train the temporal multi-output regression model
         self.temporal_model = RandomForestRegressor()
@@ -116,13 +110,10 @@ class MatrixDecompositionFramework:
         spatial_X["SITE_NAME"] = 0
         
         self.spatial_model = RandomForestRegressor()
-        # print(spatial_X)
-        # print(spatial_y)
-        # spatial_X.info()
-        # spatial_y.info()
-        spatial_X.to_csv("data/processed/spatial_features.csv")
 
         self.spatial_model.fit(spatial_X, spatial_y)
+
+        spatial_X.to_csv("data/processed/spatial_features.csv")
         self.logger.info("Spatial model training complete.")
         
         self.logger.info("Matrix Decomposition Framework training complete.")
@@ -164,6 +155,7 @@ class MatrixDecompositionFramework:
         
         # Predict latent temporal factors (Ŵ) for each date.
         W_hat = self.temporal_model.predict(temporal_X)
+        
         # Convert to DataFrame using the unique dates as index.
         W_hat_df = pd.DataFrame(W_hat, index=time_data[self.date_column])
         
@@ -188,7 +180,6 @@ class MatrixDecompositionFramework:
         # Create a DataFrame with index as dates and columns as site names.
         pred_matrix = pd.DataFrame(X_hat, index=W_hat_df.index, columns=H_hat_df.index)
 
-
         # Multi-output model
         pred_matrix.reset_index(drop=False, inplace=True)
 
@@ -196,7 +187,7 @@ class MatrixDecompositionFramework:
             id_vars=['DateTime'],
             var_name='SITE_NAME',
             value_name='predictions'
-            )
+        )
 
         y_temp = pd.DataFrame(data = {"DateTime": data["DateTime"], "SITE_NAME": data["SITE_NAME"]})
 

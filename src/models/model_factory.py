@@ -41,7 +41,7 @@ class ModelFactory:
             pass
             
         elif model_name == "lightgbm":
-            return LightGBMModel(self.model_config["benchmarks"][model_name])
+            return LightGBMModel(self.model_config)
             
         else:
             raise ValueError(f"Unknown model: {model_name}")
