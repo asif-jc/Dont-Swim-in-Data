@@ -1,4 +1,4 @@
-                                                                            **Don’t Swim in Data: Real-Time Microbial Forecasting for New Zealand Recreational Waters**
+  **Don’t Swim in Data: Real-Time Microbial Forecasting for New Zealand Recreational Waters**
                                                                           
 
 Traditional water quality monitoring, which relies on infrequent sampling and 48-hour lab- oratory delays, fails to capture rapid contamination fluctuations, leaving recreational water users exposed to health risks. To address this critical gap, we developed two novel machine learning frameworks for real-time forecasting of Enterococci concentrations in Canterbury, New Zealand.
