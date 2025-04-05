@@ -1,4 +1,3 @@
-=======
 # Don't Swim in Data: Real-Time Microbial Forecasting for New Zealand Recreational Waters
 
 <div align="center">
@@ -9,7 +8,6 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/powered%20by-Streamlit-FF4B4B.svg)](https://streamlit.io/)
 [![Docker](https://img.shields.io/badge/Docker-Available-2496ED.svg)](https://www.docker.com/)
->>>>>>> Stashed changes
 
 *Forecasting Enterococci levels in Canterbury's recreational waters through advanced machine learning*
 
