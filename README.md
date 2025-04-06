@@ -1,4 +1,4 @@
-# Don't Swim in Data: Real-Time Microbial Forecasting for New Zealand Recreational Waters
+![Lyttelton Sites](https://github.com/user-attachments/assets/be96becc-1cdc-451e-b246-a2cd277451e6)# Don't Swim in Data: Real-Time Microbial Forecasting for New Zealand Recreational Waters
 
 <div align="center">
 
@@ -211,8 +211,11 @@ Both frameworks significantly outperform conventional methods, providing robust 
 
 - **Robust High-Risk Detection**: Exceedance sensitivity of 67.0% (Probabilistic) and 61.0% (Matrix), substantially outperforming traditional methods
 - **Uncertainty Quantification**: Calibrated 90% prediction intervals through Conformalized Quantile Regression
+  ![Forecast Plot (Church Bay Beach)](https://github.com/user-attachments/assets/382e6ad8-bfbb-4a3e-92ad-fb53b353c5ae)
 - **Model Interpretability**: Comprehensive SHAP-based feature importance and interaction analysis
+  ![Global Feature Importance](https://github.com/user-attachments/assets/94985c77-a199-42bb-ae2c-27d5ce30575b)
 - **Spatial Generalization**: Demonstrated ability to predict contamination levels at unseen locations
+  ![Akaroa Sites](https://github.com/user-attachments/assets/b3b60491-74b0-4922-8e33-4ac8afa343f4) ![Lyttelton Sites](https://github.com/user-attachments/assets/0afce100-504e-4990-a804-81d86e5b40d6)
 - **Temporal Robustness**: Consistent performance across different sampling seasons
 - **Real-Time Capability**: Sub-second inference times with drift detection and missing data handling
 - **Explainable Predictions**: Dashboard visualization showing feature contributions to individual forecasts
