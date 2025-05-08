@@ -67,10 +67,10 @@ class TimeSeriesEvaluator(Evaluator):
             # Evaluate the model
 
             test_fold_results[fold_name], y_pred_test = self.evaluate_model(
-                model, model_name, X_test, y_test, dataset_name=fold_name)
+                model, model_name, X_test, y_test, dataset_name="test", fold_name=fold_name)
             
             train_fold_results[fold_name], y_pred_train = self.evaluate_model(
-                model, model_name, X_train, y_train, dataset_name=fold_name)
+                model, model_name, X_train, y_train, dataset_name="train", fold_name=fold_name) 
             
             y_pred_test = pd.DataFrame(y_pred_test)
             y_pred_test["DateTime"], y_pred_test["SITE_NAME"], y_pred_test["Enterococci"] = datetime_test, X_test["SITE_NAME"], y_test

@@ -43,7 +43,7 @@ class Evaluator:
         self.train_metrics = {}
         self.test_metrics = {}
 
-    def evaluate_model(self, model: Any, model_name: str, X: pd.DataFrame, y: pd.Series, 
+    def evaluate_model(self, model: Any, model_name: str, X: pd.DataFrame, y: pd.Series, fold_name: str = "fold_unspecified", 
                      dataset_name: str = "test") -> Dict[str, float]:
         """Evaluate a model on a given dataset.
         
@@ -58,6 +58,9 @@ class Evaluator:
         """
         # Generate predictions
         y_pred_fold = model.predict(X)
+        
+        # Write out tscv datasets
+        X.to_csv(f"data/processed/{dataset_name}_{fold_name}.csv")
 
         if (model_name == "probabilistic_framework"):
             y_pred = y_pred_fold['predictions']
@@ -70,13 +73,13 @@ class Evaluator:
         metrics_results = self._calculate_metrics(y, y_pred)
 
         # Store results
-        if dataset_name not in self.results:
-            self.results[dataset_name] = {}
+        if fold_name not in self.results:
+            self.results[fold_name] = {}
         
-        self.results[dataset_name] = metrics_results
+        self.results[fold_name] = metrics_results
         
         # Log basic results
-        logger.info(f"Evaluation on {dataset_name} dataset:")
+        logger.info(f"Evaluation on fold {fold_name} for {dataset_name} dataset:")
         for metric, value in metrics_results.items():
             logger.info(f"{metric}: {value:.4f}")
             
